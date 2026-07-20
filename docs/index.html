@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TCT Data View</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+<style>
+  body { background:#f5f6fa; font-size:14px; }
+  .navbar-brand { font-weight:700; letter-spacing:.5px; }
+  #run-table th { background:#343a40; color:#fff; position:sticky; top:0; z-index:1; }
+  #logbook-wrap { overflow-x:auto; }
+  #logbook-table th { background:#343a40; color:#fff; white-space:nowrap; }
+  #logbook-table td { white-space:nowrap; }
+  .snapshot-note { font-size:12px; }
+</style>
+</head>
+<body>
+
+<nav class="navbar navbar-dark bg-dark mb-0 px-3">
+  <span class="navbar-brand">TCT Data View</span>
+  <span class="text-light small snapshot-note" id="snapshot-note"></span>
+</nav>
+
+<ul class="nav nav-tabs px-3 bg-white border-bottom" id="mainTabs">
+  <li class="nav-item"><a class="nav-link active" data-tab="runs"       href="#">Run List</a></li>
+  <li class="nav-item"><a class="nav-link"        data-tab="logbook"    href="#">Logbook</a></li>
+  <li class="nav-item"><a class="nav-link"        data-tab="repository" href="#">Repository</a></li>
+</ul>
+
+<!-- ── Run List ── -->
+<div id="tab-runs" class="tab-pane p-3">
+  <div class="d-flex align-items-center gap-3 mb-2">
+    <h5 class="mb-0">All Runs</h5>
+    <input id="run-search" class="form-control form-control-sm" style="max-width:240px" placeholder="Search…">
+  </div>
+  <div style="overflow-x:auto">
+    <table class="table table-sm table-bordered table-hover" id="run-table">
+      <thead id="run-thead"></thead>
+      <tbody id="run-tbody"></tbody>
+    </table>
+  </div>
+</div>
+
+<!-- ── Logbook (read-only) ── -->
+<div id="tab-logbook" class="tab-pane p-3" style="display:none">
+  <div class="d-flex align-items-center gap-3 mb-2 flex-wrap">
+    <h5 class="mb-0">Logbook</h5>
+    <input id="log-search" class="form-control form-control-sm" style="max-width:240px" placeholder="Search…">
+    <span class="text-muted small">Read-only snapshot — edit from the live dashboard.</span>
+  </div>
+  <div id="logbook-wrap">
+    <table class="table table-sm table-bordered table-hover" id="logbook-table">
+      <thead id="log-thead"></thead>
+      <tbody id="log-tbody"></tbody>
+    </table>
+  </div>
+</div>
+
+<!-- ── Repository ── -->
+<div id="tab-repository" class="tab-pane p-3" style="display:none">
+  <ul class="nav nav-pills mb-3" id="repoTypeNav">
+    <li class="nav-item"><a class="nav-link active" href="#" data-repotype="all"    onclick="setRepoType('all');return false">All</a></li>
+    <li class="nav-item"><a class="nav-link"         href="#" data-repotype="aclgad" onclick="setRepoType('aclgad');return false">AC-LGAD</a></li>
+    <li class="nav-item"><a class="nav-link"         href="#" data-repotype="etct"   onclick="setRepoType('etct');return false">E-TCT</a></li>
+    <li class="nav-item"><a class="nav-link"         href="#" data-repotype="tct"    onclick="setRepoType('tct');return false">TCT</a></li>
+  </ul>
+  <div id="repo-runs-list"></div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+// ─── tabs ───────────────────────────────────────────────────────────────────
+document.querySelectorAll('#mainTabs .nav-link').forEach(a => {
+  a.addEventListener('click', e => {
+    e.preventDefault();
+    document.querySelectorAll('#mainTabs .nav-link').forEach(x => x.classList.remove('active'));
+    a.classList.add('active');
+    document.querySelectorAll('.tab-pane').forEach(p => p.style.display = 'none');
+    document.getElementById(`tab-${a.dataset.tab}`).style.display = '';
+  });
+});
+
+async function fetchJson(path) {
+  const r = await fetch(path);
+  return r.json();
+}
+
+// ─── Run List ───────────────────────────────────────────────────────────────
+let _allRuns = [], _runColumns = [];
+
+async function loadRuns() {
+  const r = await fetchJson('data/runs.json');
+  _runColumns = r.columns || [];
+  _allRuns    = r.rows || [];
+  renderRunTable(_allRuns);
+}
+
+function renderRunTable(rows) {
+  document.getElementById('run-thead').innerHTML =
+    '<tr>' + _runColumns.map(c => `<th>${c}</th>`).join('') + '</tr>';
+  document.getElementById('run-tbody').innerHTML = rows.map(row =>
+    '<tr class="run-row">' + _runColumns.map(c => `<td>${row[c] ?? ''}</td>`).join('') + '</tr>'
+  ).join('');
+}
+
+document.getElementById('run-search').addEventListener('input', e => {
+  const q = e.target.value.toLowerCase();
+  renderRunTable(_allRuns.filter(row => _runColumns.some(c => String(row[c] || '').toLowerCase().includes(q))));
+});
+
+// ─── Logbook (read-only) ────────────────────────────────────────────────────
+let _logRows = [], _logColumns = [];
+
+async function loadLogbook() {
+  const r = await fetchJson('data/logbook.json');
+  _logColumns = r.columns || [];
+  _logRows    = r.rows || [];
+  renderLogTable(_logRows);
+}
+
+function renderLogTable(rows) {
+  document.getElementById('log-thead').innerHTML =
+    '<tr>' + _logColumns.map(c => `<th>${c}</th>`).join('') + '</tr>';
+  document.getElementById('log-tbody').innerHTML = rows.map(row =>
+    '<tr>' + _logColumns.map(c => `<td>${row[c] ?? ''}</td>`).join('') + '</tr>'
+  ).join('');
+}
+
+document.getElementById('log-search').addEventListener('input', e => {
+  const q = e.target.value.toLowerCase();
+  renderLogTable(_logRows.filter(row => _logColumns.some(c => String(row[c] || '').toLowerCase().includes(q))));
+});
+
+// ─── Repository ─────────────────────────────────────────────────────────────
+let _repoType = 'all';
+let _repoRuns = [];
+
+function setRepoType(rt) {
+  _repoType = rt;
+  document.querySelectorAll('[data-repotype]').forEach(a => a.classList.toggle('active', a.dataset.repotype === rt));
+  loadRepo();
+}
+
+async function loadRepo() {
+  const el = document.getElementById('repo-runs-list');
+  el.innerHTML = '<em class="text-muted">Loading…</em>';
+  const r = await fetchJson(`data/repo_runs_${_repoType}.json`);
+  _repoRuns = r.runs || [];
+  renderRepoRuns();
+}
+
+function renderRepoRuns() {
+  const el = document.getElementById('repo-runs-list');
+  if (!_repoRuns.length) {
+    el.innerHTML = '<p class="text-muted">No runs in this section.</p>';
+    return;
+  }
+  const items = _repoRuns.map((run, i) => {
+    const logEntries = Object.entries(run.log || {});
+    const logHtml = logEntries.length
+      ? logEntries.map(([k, v]) => `
+          <div class="d-flex gap-2">
+            <span class="text-muted" style="min-width:150px">${k}</span>
+            <span>${v}</span>
+          </div>`).join('')
+      : '<span class="text-muted">No log entry for this run.</span>';
+
+    return `
+    <div class="accordion-item">
+      <h2 class="accordion-header mb-0">
+        <button class="accordion-button collapsed" type="button"
+                data-bs-toggle="collapse" data-bs-target="#repo-run-${i}"
+                onclick="loadRunFiles(${i})">
+          <strong class="me-2">Run ${run.run_id}</strong>
+          ${run.type_label ? `<span class="badge bg-secondary me-2">${run.type_label}</span>` : ''}
+          ${run.sample ? `<span class="text-muted small me-2">${run.sample}</span>` : ''}
+          ${run.vbias !== '' ? `<span class="text-muted small">${run.vbias} V</span>` : ''}
+        </button>
+      </h2>
+      <div id="repo-run-${i}" class="accordion-collapse collapse">
+        <div class="accordion-body">
+          <div class="mb-3">
+            <div class="fw-semibold small text-muted mb-1">Log</div>
+            ${logHtml}
+          </div>
+          <div>
+            <div class="fw-semibold small text-muted mb-1">Files</div>
+            <div id="repo-files-${i}"><em class="text-muted">Loading…</em></div>
+          </div>
+        </div>
+      </div>
+    </div>`;
+  }).join('');
+
+  el.innerHTML = `<div class="accordion" id="repoRunsAccordion">${items}</div>`;
+}
+
+async function loadRunFiles(i) {
+  const run = _repoRuns[i];
+  const el  = document.getElementById(`repo-files-${i}`);
+  if (!run || !el) return;
+  el.innerHTML = '<em class="text-muted">Loading…</em>';
+  const r = await fetchJson(`data/repo_files/${encodeURIComponent(run.run_id)}.json`);
+  const folders = r.folders || [];
+  if (!folders.length) {
+    el.innerHTML = '<p class="text-muted mb-0">No files for this run.</p>';
+    return;
+  }
+  el.innerHTML = folders.map(f => `
+    <div class="mb-2">
+      <div class="small fw-semibold">${f.name}</div>
+      <div class="d-flex flex-wrap gap-2 mt-1">
+        ${f.files.map(file => `<a href="${file.url}" target="_blank" class="btn btn-sm btn-outline-primary">${file.name}</a>`).join('')}
+      </div>
+    </div>`).join('');
+}
+
+// ─── init ───────────────────────────────────────────────────────────────────
+loadRuns();
+loadLogbook();
+loadRepo();
+</script>
+</body>
+</html>

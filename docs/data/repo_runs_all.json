@@ -1,0 +1,242 @@
+{
+  "runs": [
+    {
+      "run_id": "1",
+      "sample": "4004",
+      "vbias": 300.0,
+      "date": "Test",
+      "log": {
+        "Run": "1",
+        "Surface": "x",
+        "Sample": "4004",
+        "Vbias (V)": 300.0,
+        "DAC (%)": 63.0,
+        "Bandwidth": "2.5 GHz",
+        "Path": "C:/Users/miles/APD/TCT/Data/Test_analysis/Run1",
+        "Irradiation (Fluence)": 0.0,
+        "Notes": "Test Run",
+        "Date": "Test"
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "2",
+      "sample": "4004",
+      "vbias": 400.0,
+      "date": "Test",
+      "log": {
+        "Run": "2",
+        "Surface": "x",
+        "Sample": "4004",
+        "Vbias (V)": 400.0,
+        "DAC (%)": 63.0,
+        "Bandwidth": "2.5 GHz",
+        "Path": "C:/Users/miles/APD/TCT/Data/Test_analysis/Run2",
+        "Irradiation (Fluence)": 0.0,
+        "Notes": "Test Run",
+        "Date": "Test"
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "3",
+      "sample": "4003",
+      "vbias": 50.0,
+      "date": "7/10/2026",
+      "log": {
+        "Run": "3",
+        "Edge": "x",
+        "Sample": "4003",
+        "Vbias (V)": 50.0,
+        "DAC (%)": 63.0,
+        "Path": "C:\\Users\\miles\\APD\\TCT\\Data\\EdgeTCT\\071026\\071026\\50V_63DAC",
+        "Notes": "New sample 50V",
+        "Date": "7/10/2026"
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "4",
+      "sample": "4003",
+      "vbias": 150.0,
+      "date": "7/10/2026",
+      "log": {
+        "Run": "4",
+        "Edge": "x",
+        "Sample": "4003",
+        "Vbias (V)": 150.0,
+        "DAC (%)": 63.0,
+        "Path": "C:\\Users\\miles\\APD\\TCT\\Data\\EdgeTCT\\071026\\071026\\150V_63DAC",
+        "Notes": "New sample 150V",
+        "Date": "7/10/2026"
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "5",
+      "sample": "4003",
+      "vbias": 350.0,
+      "date": "7/10/2026",
+      "log": {
+        "Run": "5",
+        "Edge": "x",
+        "Sample": "4003",
+        "Vbias (V)": 350.0,
+        "DAC (%)": 63.0,
+        "Path": "C:\\Users\\miles\\APD\\TCT\\Data\\EdgeTCT\\071026\\071026\\350V_63DAC",
+        "Notes": "New sample 300V",
+        "Date": "7/10/2026"
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "6",
+      "sample": "4004",
+      "vbias": "",
+      "date": "",
+      "log": {
+        "Run": "6",
+        "Sample": "4004",
+        "Path": "C:/Users/miles/APD/TCT/Data/Test_analysis/Run6"
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "12",
+      "sample": "4004",
+      "vbias": 350.0,
+      "date": "",
+      "log": {
+        "Run": "12",
+        "Sample": "4004",
+        "Vbias (V)": 350.0,
+        "Path": "C:/Users/miles/APD/TCT/Data/Test_analysis/Run12"
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "13",
+      "sample": "31",
+      "vbias": 450.0,
+      "date": "",
+      "log": {
+        "Run": "13",
+        "Sample": "31",
+        "Vbias (V)": 450.0,
+        "Path": "C:/Users/miles/APD/TCT/Data/Test_analysis/Run13"
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "3.1",
+      "sample": "4004",
+      "vbias": 50.0,
+      "date": "Test",
+      "log": {
+        "Run": "3.1",
+        "Surface": "x",
+        "Sample": "4004",
+        "Vbias (V)": 50.0,
+        "DAC (%)": 63.0,
+        "Bandwidth": "2.5 GHz",
+        "Path": "C:/Users/miles/APD/TCT/Data/Test_analysis/Run011",
+        "Irradiation (Fluence)": 0.0,
+        "Notes": "Test Run",
+        "Date": "Test"
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "4.1",
+      "sample": "4004",
+      "vbias": 100.0,
+      "date": "Test",
+      "log": {
+        "Run": "4.1",
+        "Surface": "x",
+        "Sample": "4004",
+        "Vbias (V)": 100.0,
+        "DAC (%)": 63.0,
+        "Bandwidth": "2.5 GHz",
+        "Path": "C:/Users/miles/APD/TCT/Data/Test_analysis/scan_Y_0.370_ch3_20250802.csv",
+        "Irradiation (Fluence)": 0.0,
+        "Notes": "Test Run",
+        "Date": "Test"
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "5.1",
+      "sample": "4004",
+      "vbias": 350.0,
+      "date": "Test",
+      "log": {
+        "Run": "5.1",
+        "Surface": "x",
+        "Sample": "4004",
+        "Vbias (V)": 350.0,
+        "DAC (%)": 63.0,
+        "Bandwidth": "2.5 GHz",
+        "Path": "C:/Users/miles/APD/TCT/Data/Test_analysis/Run5",
+        "Irradiation (Fluence)": 0.0,
+        "Notes": "Test Run",
+        "Date": "Test"
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "100V_old5mm",
+      "sample": "Old5mm",
+      "vbias": 100.0,
+      "date": "",
+      "log": {
+        "Run": "100V_old5mm",
+        "Sample": "Old5mm",
+        "Vbias (V)": 100.0,
+        "Path": "C:\\Users\\miles\\APD\\TCT\\Data\\Test_analysis\\Old5mm_100V",
+        "Gain Constant": 3.0
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "150V_new1cm",
+      "sample": "New1cm",
+      "vbias": 150.0,
+      "date": "",
+      "log": {
+        "Run": "150V_new1cm",
+        "Sample": "New1cm",
+        "Vbias (V)": 150.0,
+        "Path": "C:\\Users\\miles\\APD\\TCT\\Data\\Test_analysis\\New1cm_150V",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    }
+  ]
+}
