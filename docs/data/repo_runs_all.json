@@ -15,7 +15,8 @@
         "Path": "C:/Users/miles/APD/TCT/Data/Test_analysis/Run1",
         "Irradiation (Fluence)": 0.0,
         "Notes": "Test Run",
-        "Date": "Test"
+        "Date": "Test",
+        "Gain Constant": 5.5
       },
       "type": "",
       "type_label": "",
@@ -23,20 +24,21 @@
     },
     {
       "run_id": "2",
-      "sample": "4004",
+      "sample": "30",
       "vbias": 400.0,
       "date": "Test",
       "log": {
         "Run": "2",
         "Surface": "x",
-        "Sample": "4004",
+        "Sample": "30",
         "Vbias (V)": 400.0,
         "DAC (%)": 63.0,
         "Bandwidth": "2.5 GHz",
         "Path": "C:/Users/miles/APD/TCT/Data/Test_analysis/Run2",
         "Irradiation (Fluence)": 0.0,
         "Notes": "Test Run",
-        "Date": "Test"
+        "Date": "Test",
+        "Gain Constant": 5.5
       },
       "type": "",
       "type_label": "",
@@ -44,18 +46,21 @@
     },
     {
       "run_id": "3",
-      "sample": "4003",
+      "sample": "4004",
       "vbias": 50.0,
-      "date": "7/10/2026",
+      "date": "Test",
       "log": {
         "Run": "3",
-        "Edge": "x",
-        "Sample": "4003",
+        "Surface": "x",
+        "Sample": "4004",
         "Vbias (V)": 50.0,
         "DAC (%)": 63.0,
-        "Path": "C:\\Users\\miles\\APD\\TCT\\Data\\EdgeTCT\\071026\\071026\\50V_63DAC",
-        "Notes": "New sample 50V",
-        "Date": "7/10/2026"
+        "Bandwidth": "2.5 GHz",
+        "Path": "C:/Users/miles/APD/TCT/Data/Test_analysis/Run011",
+        "Irradiation (Fluence)": 0.0,
+        "Notes": "Test Run",
+        "Date": "Test",
+        "Gain Constant": 5.5
       },
       "type": "",
       "type_label": "",
@@ -63,18 +68,21 @@
     },
     {
       "run_id": "4",
-      "sample": "4003",
-      "vbias": 150.0,
-      "date": "7/10/2026",
+      "sample": "4004",
+      "vbias": 100.0,
+      "date": "Test",
       "log": {
         "Run": "4",
-        "Edge": "x",
-        "Sample": "4003",
-        "Vbias (V)": 150.0,
+        "Surface": "x",
+        "Sample": "4004",
+        "Vbias (V)": 100.0,
         "DAC (%)": 63.0,
-        "Path": "C:\\Users\\miles\\APD\\TCT\\Data\\EdgeTCT\\071026\\071026\\150V_63DAC",
-        "Notes": "New sample 150V",
-        "Date": "7/10/2026"
+        "Bandwidth": "2.5 GHz",
+        "Path": "C:/Users/miles/APD/TCT/Data/Test_analysis/scan_Y_0.370_ch3_20250802.csv",
+        "Irradiation (Fluence)": 0.0,
+        "Notes": "Test Run",
+        "Date": "Test",
+        "Gain Constant": 5.5
       },
       "type": "",
       "type_label": "",
@@ -82,18 +90,21 @@
     },
     {
       "run_id": "5",
-      "sample": "4003",
+      "sample": "4004",
       "vbias": 350.0,
-      "date": "7/10/2026",
+      "date": "Test",
       "log": {
         "Run": "5",
-        "Edge": "x",
-        "Sample": "4003",
+        "Surface": "x",
+        "Sample": "4004",
         "Vbias (V)": 350.0,
         "DAC (%)": 63.0,
-        "Path": "C:\\Users\\miles\\APD\\TCT\\Data\\EdgeTCT\\071026\\071026\\350V_63DAC",
-        "Notes": "New sample 300V",
-        "Date": "7/10/2026"
+        "Bandwidth": "2.5 GHz",
+        "Path": "C:/Users/miles/APD/TCT/Data/Test_analysis/Run5",
+        "Irradiation (Fluence)": 0.0,
+        "Notes": "Test Run",
+        "Date": "Test",
+        "Gain Constant": 5.5
       },
       "type": "",
       "type_label": "",
@@ -107,7 +118,8 @@
       "log": {
         "Run": "6",
         "Sample": "4004",
-        "Path": "C:/Users/miles/APD/TCT/Data/Test_analysis/Run6"
+        "Path": "C:/Users/miles/APD/TCT/Data/Test_analysis/Run6",
+        "Gain Constant": 5.5
       },
       "type": "",
       "type_label": "",
@@ -122,7 +134,8 @@
         "Run": "12",
         "Sample": "4004",
         "Vbias (V)": 350.0,
-        "Path": "C:/Users/miles/APD/TCT/Data/Test_analysis/Run12"
+        "Path": "C:/Users/miles/APD/TCT/Data/Test_analysis/Run12",
+        "Gain Constant": 5.5
       },
       "type": "",
       "type_label": "",
@@ -137,101 +150,2093 @@
         "Run": "13",
         "Sample": "31",
         "Vbias (V)": 450.0,
-        "Path": "C:/Users/miles/APD/TCT/Data/Test_analysis/Run13"
+        "Path": "C:/Users/miles/APD/TCT/Data/Test_analysis/Run13",
+        "Gain Constant": 5.5
       },
       "type": "",
       "type_label": "",
       "has_folder": true
     },
     {
-      "run_id": "3.1",
-      "sample": "4004",
+      "run_id": "1_0",
+      "sample": "1cm_42-Position1",
+      "vbias": 0.0,
+      "date": "",
+      "log": {
+        "Run": "1_0",
+        "Surface": "x",
+        "Sample": "1cm_42-Position1",
+        "Vbias (V)": 0.0,
+        "DAC (%)": 63.3,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\01152026\\highest_at_y_13.4_gap8\\0",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "2_0",
+      "sample": "1cm_42-Position2",
+      "vbias": 0.0,
+      "date": "",
+      "log": {
+        "Run": "2_0",
+        "Surface": "x",
+        "Sample": "1cm_42-Position2",
+        "Vbias (V)": 0.0,
+        "DAC (%)": 63.3,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\01152026\\lowest_at_y_4.696_gap2\\0",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "3_0",
+      "sample": "1cm_42-Position3",
+      "vbias": 0.0,
+      "date": "",
+      "log": {
+        "Run": "3_0",
+        "Surface": "x",
+        "Sample": "1cm_42-Position3",
+        "Vbias (V)": 0.0,
+        "DAC (%)": 63.3,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\01152026\\position_3_y13.3_xScan1\\0V",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "1_10",
+      "sample": "1cm_42-Position1",
+      "vbias": 10.0,
+      "date": "",
+      "log": {
+        "Run": "1_10",
+        "Surface": "x",
+        "Sample": "1cm_42-Position1",
+        "Vbias (V)": 10.0,
+        "DAC (%)": 63.3,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\01152026\\highest_at_y_13.4_gap8\\10",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "1_20",
+      "sample": "1cm_42-Position1",
+      "vbias": 20.0,
+      "date": "",
+      "log": {
+        "Run": "1_20",
+        "Surface": "x",
+        "Sample": "1cm_42-Position1",
+        "Vbias (V)": 20.0,
+        "DAC (%)": 63.3,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\01152026\\highest_at_y_13.4_gap8\\20",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "1_30",
+      "sample": "1cm_42-Position1",
+      "vbias": 30.0,
+      "date": "",
+      "log": {
+        "Run": "1_30",
+        "Surface": "x",
+        "Sample": "1cm_42-Position1",
+        "Vbias (V)": 30.0,
+        "DAC (%)": 63.3,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\01152026\\highest_at_y_13.4_gap8\\30",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "1_40",
+      "sample": "1cm_42-Position1",
+      "vbias": 40.0,
+      "date": "",
+      "log": {
+        "Run": "1_40",
+        "Surface": "x",
+        "Sample": "1cm_42-Position1",
+        "Vbias (V)": 40.0,
+        "DAC (%)": 63.3,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\01152026\\highest_at_y_13.4_gap8\\40",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "1_50",
+      "sample": "1cm_42-Position1",
       "vbias": 50.0,
-      "date": "Test",
+      "date": "",
       "log": {
-        "Run": "3.1",
+        "Run": "1_50",
         "Surface": "x",
-        "Sample": "4004",
+        "Sample": "1cm_42-Position1",
         "Vbias (V)": 50.0,
-        "DAC (%)": 63.0,
-        "Bandwidth": "2.5 GHz",
-        "Path": "C:/Users/miles/APD/TCT/Data/Test_analysis/Run011",
-        "Irradiation (Fluence)": 0.0,
-        "Notes": "Test Run",
-        "Date": "Test"
+        "DAC (%)": 63.3,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\01152026\\highest_at_y_13.4_gap8\\50",
+        "Gain Constant": 5.5
       },
       "type": "",
       "type_label": "",
       "has_folder": true
     },
     {
-      "run_id": "4.1",
-      "sample": "4004",
-      "vbias": 100.0,
-      "date": "Test",
+      "run_id": "1_60",
+      "sample": "1cm_42-Position1",
+      "vbias": 60.0,
+      "date": "",
       "log": {
-        "Run": "4.1",
+        "Run": "1_60",
+        "Surface": "x",
+        "Sample": "1cm_42-Position1",
+        "Vbias (V)": 60.0,
+        "DAC (%)": 63.3,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\01152026\\highest_at_y_13.4_gap8\\60",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "1_70",
+      "sample": "1cm_42-Position1",
+      "vbias": 70.0,
+      "date": "",
+      "log": {
+        "Run": "1_70",
+        "Surface": "x",
+        "Sample": "1cm_42-Position1",
+        "Vbias (V)": 70.0,
+        "DAC (%)": 63.3,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\01152026\\highest_at_y_13.4_gap8\\70",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "1_80",
+      "sample": "1cm_42-Position1",
+      "vbias": 80.0,
+      "date": "",
+      "log": {
+        "Run": "1_80",
+        "Surface": "x",
+        "Sample": "1cm_42-Position1",
+        "Vbias (V)": 80.0,
+        "DAC (%)": 63.3,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\01152026\\highest_at_y_13.4_gap8\\80",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "1_90",
+      "sample": "1cm_42-Position1",
+      "vbias": 90.0,
+      "date": "",
+      "log": {
+        "Run": "1_90",
+        "Surface": "x",
+        "Sample": "1cm_42-Position1",
+        "Vbias (V)": 90.0,
+        "DAC (%)": 63.3,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\01152026\\highest_at_y_13.4_gap8\\90",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "2_10",
+      "sample": "1cm_42-Position2",
+      "vbias": 10.0,
+      "date": "",
+      "log": {
+        "Run": "2_10",
+        "Surface": "x",
+        "Sample": "1cm_42-Position2",
+        "Vbias (V)": 10.0,
+        "DAC (%)": 63.3,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\01152026\\lowest_at_y_4.696_gap2\\10",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "2_20",
+      "sample": "1cm_42-Position2",
+      "vbias": 20.0,
+      "date": "",
+      "log": {
+        "Run": "2_20",
+        "Surface": "x",
+        "Sample": "1cm_42-Position2",
+        "Vbias (V)": 20.0,
+        "DAC (%)": 63.3,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\01152026\\lowest_at_y_4.696_gap2\\20",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "2_30",
+      "sample": "1cm_42-Position2",
+      "vbias": 30.0,
+      "date": "",
+      "log": {
+        "Run": "2_30",
+        "Surface": "x",
+        "Sample": "1cm_42-Position2",
+        "Vbias (V)": 30.0,
+        "DAC (%)": 63.3,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\01152026\\lowest_at_y_4.696_gap2\\30",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "2_40",
+      "sample": "1cm_42-Position2",
+      "vbias": 40.0,
+      "date": "",
+      "log": {
+        "Run": "2_40",
+        "Surface": "x",
+        "Sample": "1cm_42-Position2",
+        "Vbias (V)": 40.0,
+        "DAC (%)": 63.3,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\01152026\\lowest_at_y_4.696_gap2\\40",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "2_50",
+      "sample": "1cm_42-Position2",
+      "vbias": 50.0,
+      "date": "",
+      "log": {
+        "Run": "2_50",
+        "Surface": "x",
+        "Sample": "1cm_42-Position2",
+        "Vbias (V)": 50.0,
+        "DAC (%)": 63.3,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\01152026\\lowest_at_y_4.696_gap2\\50",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "2_60",
+      "sample": "1cm_42-Position2",
+      "vbias": 60.0,
+      "date": "",
+      "log": {
+        "Run": "2_60",
+        "Surface": "x",
+        "Sample": "1cm_42-Position2",
+        "Vbias (V)": 60.0,
+        "DAC (%)": 63.3,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\01152026\\lowest_at_y_4.696_gap2\\60",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "2_70",
+      "sample": "1cm_42-Position2",
+      "vbias": 70.0,
+      "date": "",
+      "log": {
+        "Run": "2_70",
+        "Surface": "x",
+        "Sample": "1cm_42-Position2",
+        "Vbias (V)": 70.0,
+        "DAC (%)": 63.3,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\01152026\\lowest_at_y_4.696_gap2\\70",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "2_80",
+      "sample": "1cm_42-Position2",
+      "vbias": 80.0,
+      "date": "",
+      "log": {
+        "Run": "2_80",
+        "Surface": "x",
+        "Sample": "1cm_42-Position2",
+        "Vbias (V)": 80.0,
+        "DAC (%)": 63.3,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\01152026\\lowest_at_y_4.696_gap2\\80",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "2_90",
+      "sample": "1cm_42-Position2",
+      "vbias": 90.0,
+      "date": "",
+      "log": {
+        "Run": "2_90",
+        "Surface": "x",
+        "Sample": "1cm_42-Position2",
+        "Vbias (V)": 90.0,
+        "DAC (%)": 63.3,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\01152026\\lowest_at_y_4.696_gap2\\90",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "3_10",
+      "sample": "1cm_42-Position3",
+      "vbias": 10.0,
+      "date": "",
+      "log": {
+        "Run": "3_10",
+        "Surface": "x",
+        "Sample": "1cm_42-Position3",
+        "Vbias (V)": 10.0,
+        "DAC (%)": 63.3,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\01152026\\position_3_y13.3_xScan1\\10V",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "3_20",
+      "sample": "1cm_42-Position3",
+      "vbias": 20.0,
+      "date": "",
+      "log": {
+        "Run": "3_20",
+        "Surface": "x",
+        "Sample": "1cm_42-Position3",
+        "Vbias (V)": 20.0,
+        "DAC (%)": 63.3,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\01152026\\position_3_y13.3_xScan1\\20V",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "3_30",
+      "sample": "1cm_42-Position3",
+      "vbias": 30.0,
+      "date": "",
+      "log": {
+        "Run": "3_30",
+        "Surface": "x",
+        "Sample": "1cm_42-Position3",
+        "Vbias (V)": 30.0,
+        "DAC (%)": 63.3,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\01152026\\position_3_y13.3_xScan1\\30V",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "3_40",
+      "sample": "1cm_42-Position3",
+      "vbias": 40.0,
+      "date": "",
+      "log": {
+        "Run": "3_40",
+        "Surface": "x",
+        "Sample": "1cm_42-Position3",
+        "Vbias (V)": 40.0,
+        "DAC (%)": 63.3,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\01152026\\position_3_y13.3_xScan1\\40V",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "3_50",
+      "sample": "1cm_42-Position3",
+      "vbias": 50.0,
+      "date": "",
+      "log": {
+        "Run": "3_50",
+        "Surface": "x",
+        "Sample": "1cm_42-Position3",
+        "Vbias (V)": 50.0,
+        "DAC (%)": 63.3,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\01152026\\position_3_y13.3_xScan1\\50V",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "3_60",
+      "sample": "1cm_42-Position3",
+      "vbias": 60.0,
+      "date": "",
+      "log": {
+        "Run": "3_60",
+        "Surface": "x",
+        "Sample": "1cm_42-Position3",
+        "Vbias (V)": 60.0,
+        "DAC (%)": 63.3,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\01152026\\position_3_y13.3_xScan1\\60V",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "3_70",
+      "sample": "1cm_42-Position3",
+      "vbias": 70.0,
+      "date": "",
+      "log": {
+        "Run": "3_70",
+        "Surface": "x",
+        "Sample": "1cm_42-Position3",
+        "Vbias (V)": 70.0,
+        "DAC (%)": 63.3,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\01152026\\position_3_y13.3_xScan1\\70V",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "3_80",
+      "sample": "1cm_42-Position3",
+      "vbias": 80.0,
+      "date": "",
+      "log": {
+        "Run": "3_80",
+        "Surface": "x",
+        "Sample": "1cm_42-Position3",
+        "Vbias (V)": 80.0,
+        "DAC (%)": 63.3,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\01152026\\position_3_y13.3_xScan1\\80V",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "3_90",
+      "sample": "1cm_42-Position3",
+      "vbias": 90.0,
+      "date": "",
+      "log": {
+        "Run": "3_90",
+        "Surface": "x",
+        "Sample": "1cm_42-Position3",
+        "Vbias (V)": 90.0,
+        "DAC (%)": 63.3,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\01152026\\position_3_y13.3_xScan1\\90V",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "0V_TD",
+      "sample": "4004",
+      "vbias": 0.0,
+      "date": "10/23/2025",
+      "log": {
+        "Run": "0V_TD",
         "Surface": "x",
         "Sample": "4004",
-        "Vbias (V)": 100.0,
-        "DAC (%)": 63.0,
-        "Bandwidth": "2.5 GHz",
-        "Path": "C:/Users/miles/APD/TCT/Data/Test_analysis/scan_Y_0.370_ch3_20250802.csv",
+        "Vbias (V)": 0.0,
+        "DAC (%)": 63.3,
+        "Bandwidth": "500MHz",
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\0V_102625\\TD_0V_35MIPs",
         "Irradiation (Fluence)": 0.0,
-        "Notes": "Test Run",
-        "Date": "Test"
+        "Notes": "0V_sanitycheck_TD",
+        "Date": "10/23/2025",
+        "Gain Constant": 5.5
       },
       "type": "",
       "type_label": "",
       "has_folder": true
     },
     {
-      "run_id": "5.1",
-      "sample": "4004",
-      "vbias": 350.0,
-      "date": "Test",
+      "run_id": "155um",
+      "sample": "1cm_42",
+      "vbias": 150.0,
+      "date": "11/23/2025",
       "log": {
-        "Run": "5.1",
+        "Run": "155um",
         "Surface": "x",
-        "Sample": "4004",
-        "Vbias (V)": 350.0,
-        "DAC (%)": 63.0,
-        "Bandwidth": "2.5 GHz",
-        "Path": "C:/Users/miles/APD/TCT/Data/Test_analysis/Run5",
+        "Sample": "1cm_42",
+        "Vbias (V)": 150.0,
+        "DAC (%)": 63.5,
+        "Bandwidth": "500",
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\Xscan\\73.36_RT\\155um",
         "Irradiation (Fluence)": 0.0,
-        "Notes": "Test Run",
-        "Date": "Test"
+        "Date": "11/23/2025"
       },
       "type": "",
       "type_label": "",
       "has_folder": true
     },
     {
-      "run_id": "100V_old5mm",
-      "sample": "Old5mm",
+      "run_id": "1_100",
+      "sample": "1cm_42-Position1",
       "vbias": 100.0,
       "date": "",
       "log": {
-        "Run": "100V_old5mm",
-        "Sample": "Old5mm",
+        "Run": "1_100",
+        "Surface": "x",
+        "Sample": "1cm_42-Position1",
         "Vbias (V)": 100.0,
-        "Path": "C:\\Users\\miles\\APD\\TCT\\Data\\Test_analysis\\Old5mm_100V",
-        "Gain Constant": 3.0
+        "DAC (%)": 63.3,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\01152026\\highest_at_y_13.4_gap8\\100",
+        "Gain Constant": 5.5
       },
       "type": "",
       "type_label": "",
       "has_folder": true
     },
     {
-      "run_id": "150V_new1cm",
-      "sample": "New1cm",
+      "run_id": "1_110",
+      "sample": "1cm_42-Position1",
+      "vbias": 110.0,
+      "date": "",
+      "log": {
+        "Run": "1_110",
+        "Surface": "x",
+        "Sample": "1cm_42-Position1",
+        "Vbias (V)": 110.0,
+        "DAC (%)": 63.3,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\01152026\\highest_at_y_13.4_gap8\\110",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "1_120",
+      "sample": "1cm_42-Position1",
+      "vbias": 120.0,
+      "date": "",
+      "log": {
+        "Run": "1_120",
+        "Surface": "x",
+        "Sample": "1cm_42-Position1",
+        "Vbias (V)": 120.0,
+        "DAC (%)": 63.3,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\01152026\\highest_at_y_13.4_gap8\\120",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "1_130",
+      "sample": "1cm_42-Position1",
+      "vbias": 130.0,
+      "date": "",
+      "log": {
+        "Run": "1_130",
+        "Surface": "x",
+        "Sample": "1cm_42-Position1",
+        "Vbias (V)": 130.0,
+        "DAC (%)": 63.3,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\01152026\\highest_at_y_13.4_gap8\\130",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "1_140",
+      "sample": "1cm_42-Position1",
+      "vbias": 140.0,
+      "date": "",
+      "log": {
+        "Run": "1_140",
+        "Surface": "x",
+        "Sample": "1cm_42-Position1",
+        "Vbias (V)": 140.0,
+        "DAC (%)": 63.3,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\01152026\\highest_at_y_13.4_gap8\\140",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "1_141",
+      "sample": "1cm_42-Position1",
+      "vbias": 141.0,
+      "date": "",
+      "log": {
+        "Run": "1_141",
+        "Surface": "x",
+        "Sample": "1cm_42-Position1",
+        "Vbias (V)": 141.0,
+        "DAC (%)": 63.3,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\01152026\\highest_at_y_13.4_gap8\\141",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "1_142",
+      "sample": "1cm_42-Position1",
+      "vbias": 142.0,
+      "date": "",
+      "log": {
+        "Run": "1_142",
+        "Surface": "x",
+        "Sample": "1cm_42-Position1",
+        "Vbias (V)": 142.0,
+        "DAC (%)": 63.3,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\01152026\\highest_at_y_13.4_gap8\\142",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "1_143",
+      "sample": "1cm_42-Position1",
+      "vbias": 143.0,
+      "date": "",
+      "log": {
+        "Run": "1_143",
+        "Surface": "x",
+        "Sample": "1cm_42-Position1",
+        "Vbias (V)": 143.0,
+        "DAC (%)": 63.3,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\01152026\\highest_at_y_13.4_gap8\\143",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "1_144",
+      "sample": "1cm_42-Position1",
+      "vbias": 144.0,
+      "date": "",
+      "log": {
+        "Run": "1_144",
+        "Surface": "x",
+        "Sample": "1cm_42-Position1",
+        "Vbias (V)": 144.0,
+        "DAC (%)": 63.3,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\01152026\\highest_at_y_13.4_gap8\\144",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "1_145",
+      "sample": "1cm_42-Position1",
+      "vbias": 145.0,
+      "date": "",
+      "log": {
+        "Run": "1_145",
+        "Surface": "x",
+        "Sample": "1cm_42-Position1",
+        "Vbias (V)": 145.0,
+        "DAC (%)": 63.3,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\01152026\\highest_at_y_13.4_gap8\\145",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "1_146",
+      "sample": "1cm_42-Position1",
+      "vbias": 146.0,
+      "date": "",
+      "log": {
+        "Run": "1_146",
+        "Surface": "x",
+        "Sample": "1cm_42-Position1",
+        "Vbias (V)": 146.0,
+        "DAC (%)": 63.3,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\01152026\\highest_at_y_13.4_gap8\\146",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "1_147",
+      "sample": "1cm_42-Position1",
+      "vbias": 147.0,
+      "date": "",
+      "log": {
+        "Run": "1_147",
+        "Surface": "x",
+        "Sample": "1cm_42-Position1",
+        "Vbias (V)": 147.0,
+        "DAC (%)": 63.3,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\01152026\\highest_at_y_13.4_gap8\\147",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "1_148",
+      "sample": "1cm_42-Position1",
+      "vbias": 148.0,
+      "date": "",
+      "log": {
+        "Run": "1_148",
+        "Surface": "x",
+        "Sample": "1cm_42-Position1",
+        "Vbias (V)": 148.0,
+        "DAC (%)": 63.3,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\01152026\\highest_at_y_13.4_gap8\\148",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "1_149",
+      "sample": "1cm_42-Position1",
+      "vbias": 149.0,
+      "date": "",
+      "log": {
+        "Run": "1_149",
+        "Surface": "x",
+        "Sample": "1cm_42-Position1",
+        "Vbias (V)": 149.0,
+        "DAC (%)": 63.3,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\01152026\\highest_at_y_13.4_gap8\\149",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "1_150",
+      "sample": "1cm_42-Position1",
       "vbias": 150.0,
       "date": "",
       "log": {
-        "Run": "150V_new1cm",
-        "Sample": "New1cm",
+        "Run": "1_150",
+        "Surface": "x",
+        "Sample": "1cm_42-Position1",
         "Vbias (V)": 150.0,
-        "Path": "C:\\Users\\miles\\APD\\TCT\\Data\\Test_analysis\\New1cm_150V",
+        "DAC (%)": 63.3,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\01152026\\highest_at_y_13.4_gap8\\150",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "2_100",
+      "sample": "1cm_42-Position2",
+      "vbias": 100.0,
+      "date": "",
+      "log": {
+        "Run": "2_100",
+        "Surface": "x",
+        "Sample": "1cm_42-Position2",
+        "Vbias (V)": 100.0,
+        "DAC (%)": 63.3,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\01152026\\lowest_at_y_4.696_gap2\\100",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "2_110",
+      "sample": "1cm_42-Position2",
+      "vbias": 110.0,
+      "date": "",
+      "log": {
+        "Run": "2_110",
+        "Surface": "x",
+        "Sample": "1cm_42-Position2",
+        "Vbias (V)": 110.0,
+        "DAC (%)": 63.3,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\01152026\\lowest_at_y_4.696_gap2\\110",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "2_120",
+      "sample": "1cm_42-Position2",
+      "vbias": 120.0,
+      "date": "",
+      "log": {
+        "Run": "2_120",
+        "Surface": "x",
+        "Sample": "1cm_42-Position2",
+        "Vbias (V)": 120.0,
+        "DAC (%)": 63.3,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\01152026\\lowest_at_y_4.696_gap2\\120",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "2_130",
+      "sample": "1cm_42-Position2",
+      "vbias": 130.0,
+      "date": "",
+      "log": {
+        "Run": "2_130",
+        "Surface": "x",
+        "Sample": "1cm_42-Position2",
+        "Vbias (V)": 130.0,
+        "DAC (%)": 63.3,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\01152026\\lowest_at_y_4.696_gap2\\130",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "2_140",
+      "sample": "1cm_42-Position2",
+      "vbias": 140.0,
+      "date": "",
+      "log": {
+        "Run": "2_140",
+        "Surface": "x",
+        "Sample": "1cm_42-Position2",
+        "Vbias (V)": 140.0,
+        "DAC (%)": 63.3,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\01152026\\lowest_at_y_4.696_gap2\\140",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "2_141",
+      "sample": "1cm_42-Position2",
+      "vbias": 141.0,
+      "date": "",
+      "log": {
+        "Run": "2_141",
+        "Surface": "x",
+        "Sample": "1cm_42-Position2",
+        "Vbias (V)": 141.0,
+        "DAC (%)": 63.3,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\01152026\\lowest_at_y_4.696_gap2\\141",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "2_142",
+      "sample": "1cm_42-Position2",
+      "vbias": 142.0,
+      "date": "",
+      "log": {
+        "Run": "2_142",
+        "Surface": "x",
+        "Sample": "1cm_42-Position2",
+        "Vbias (V)": 142.0,
+        "DAC (%)": 63.3,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\01152026\\lowest_at_y_4.696_gap2\\142",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "2_143",
+      "sample": "1cm_42-Position2",
+      "vbias": 143.0,
+      "date": "",
+      "log": {
+        "Run": "2_143",
+        "Surface": "x",
+        "Sample": "1cm_42-Position2",
+        "Vbias (V)": 143.0,
+        "DAC (%)": 63.3,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\01152026\\lowest_at_y_4.696_gap2\\143",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "2_144",
+      "sample": "1cm_42-Position2",
+      "vbias": 144.0,
+      "date": "",
+      "log": {
+        "Run": "2_144",
+        "Surface": "x",
+        "Sample": "1cm_42-Position2",
+        "Vbias (V)": 144.0,
+        "DAC (%)": 63.3,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\01152026\\lowest_at_y_4.696_gap2\\144",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "2_145",
+      "sample": "1cm_42-Position2",
+      "vbias": 145.0,
+      "date": "",
+      "log": {
+        "Run": "2_145",
+        "Surface": "x",
+        "Sample": "1cm_42-Position2",
+        "Vbias (V)": 145.0,
+        "DAC (%)": 63.3,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\01152026\\lowest_at_y_4.696_gap2\\145",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "2_146",
+      "sample": "1cm_42-Position2",
+      "vbias": 146.0,
+      "date": "",
+      "log": {
+        "Run": "2_146",
+        "Surface": "x",
+        "Sample": "1cm_42-Position2",
+        "Vbias (V)": 146.0,
+        "DAC (%)": 63.3,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\01152026\\lowest_at_y_4.696_gap2\\146",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "2_147",
+      "sample": "1cm_42-Position2",
+      "vbias": 147.0,
+      "date": "",
+      "log": {
+        "Run": "2_147",
+        "Surface": "x",
+        "Sample": "1cm_42-Position2",
+        "Vbias (V)": 147.0,
+        "DAC (%)": 63.3,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\01152026\\lowest_at_y_4.696_gap2\\147",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "2_148",
+      "sample": "1cm_42-Position2",
+      "vbias": 148.0,
+      "date": "",
+      "log": {
+        "Run": "2_148",
+        "Surface": "x",
+        "Sample": "1cm_42-Position2",
+        "Vbias (V)": 148.0,
+        "DAC (%)": 63.3,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\01152026\\lowest_at_y_4.696_gap2\\148",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "2_149",
+      "sample": "1cm_42-Position2",
+      "vbias": 149.0,
+      "date": "",
+      "log": {
+        "Run": "2_149",
+        "Surface": "x",
+        "Sample": "1cm_42-Position2",
+        "Vbias (V)": 149.0,
+        "DAC (%)": 63.3,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\01152026\\lowest_at_y_4.696_gap2\\149",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "2_150",
+      "sample": "1cm_42-Position2",
+      "vbias": 150.0,
+      "date": "",
+      "log": {
+        "Run": "2_150",
+        "Surface": "x",
+        "Sample": "1cm_42-Position2",
+        "Vbias (V)": 150.0,
+        "DAC (%)": 63.3,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\01152026\\lowest_at_y_4.696_gap2\\150",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "395um",
+      "sample": "1cm_42",
+      "vbias": 150.0,
+      "date": "11/23/2025",
+      "log": {
+        "Run": "395um",
+        "Surface": "x",
+        "Sample": "1cm_42",
+        "Vbias (V)": 150.0,
+        "DAC (%)": 63.5,
+        "Bandwidth": "500",
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\Xscan\\73.36_RT\\395um",
+        "Irradiation (Fluence)": 0.0,
+        "Date": "11/23/2025"
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "3_100",
+      "sample": "1cm_42-Position3",
+      "vbias": 100.0,
+      "date": "",
+      "log": {
+        "Run": "3_100",
+        "Surface": "x",
+        "Sample": "1cm_42-Position3",
+        "Vbias (V)": 100.0,
+        "DAC (%)": 63.3,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\01152026\\position_3_y13.3_xScan1\\100V",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "3_110",
+      "sample": "1cm_42-Position3",
+      "vbias": 110.0,
+      "date": "",
+      "log": {
+        "Run": "3_110",
+        "Surface": "x",
+        "Sample": "1cm_42-Position3",
+        "Vbias (V)": 110.0,
+        "DAC (%)": 63.3,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\01152026\\position_3_y13.3_xScan1\\110V",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "3_120",
+      "sample": "1cm_42-Position3",
+      "vbias": 120.0,
+      "date": "",
+      "log": {
+        "Run": "3_120",
+        "Surface": "x",
+        "Sample": "1cm_42-Position3",
+        "Vbias (V)": 120.0,
+        "DAC (%)": 63.3,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\01152026\\position_3_y13.3_xScan1\\120V",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "3_130",
+      "sample": "1cm_42-Position3",
+      "vbias": 130.0,
+      "date": "",
+      "log": {
+        "Run": "3_130",
+        "Surface": "x",
+        "Sample": "1cm_42-Position3",
+        "Vbias (V)": 130.0,
+        "DAC (%)": 63.3,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\01152026\\position_3_y13.3_xScan1\\130V",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "3_140",
+      "sample": "1cm_42-Position3",
+      "vbias": 140.0,
+      "date": "",
+      "log": {
+        "Run": "3_140",
+        "Surface": "x",
+        "Sample": "1cm_42-Position3",
+        "Vbias (V)": 140.0,
+        "DAC (%)": 63.3,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\01152026\\position_3_y13.3_xScan1\\140V",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "3_141",
+      "sample": "1cm_42-Position3",
+      "vbias": 141.0,
+      "date": "",
+      "log": {
+        "Run": "3_141",
+        "Surface": "x",
+        "Sample": "1cm_42-Position3",
+        "Vbias (V)": 141.0,
+        "DAC (%)": 63.3,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\01152026\\position_3_y13.3_xScan1\\141V",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "3_142",
+      "sample": "1cm_42-Position3",
+      "vbias": 142.0,
+      "date": "",
+      "log": {
+        "Run": "3_142",
+        "Surface": "x",
+        "Sample": "1cm_42-Position3",
+        "Vbias (V)": 142.0,
+        "DAC (%)": 63.3,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\01152026\\position_3_y13.3_xScan1\\142V",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "3_143",
+      "sample": "1cm_42-Position3",
+      "vbias": 143.0,
+      "date": "",
+      "log": {
+        "Run": "3_143",
+        "Surface": "x",
+        "Sample": "1cm_42-Position3",
+        "Vbias (V)": 143.0,
+        "DAC (%)": 63.3,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\01152026\\position_3_y13.3_xScan1\\143V",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "3_144",
+      "sample": "1cm_42-Position3",
+      "vbias": 144.0,
+      "date": "",
+      "log": {
+        "Run": "3_144",
+        "Surface": "x",
+        "Sample": "1cm_42-Position3",
+        "Vbias (V)": 144.0,
+        "DAC (%)": 63.3,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\01152026\\position_3_y13.3_xScan1\\144V",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "3_145",
+      "sample": "1cm_42-Position3",
+      "vbias": 145.0,
+      "date": "",
+      "log": {
+        "Run": "3_145",
+        "Surface": "x",
+        "Sample": "1cm_42-Position3",
+        "Vbias (V)": 145.0,
+        "DAC (%)": 63.3,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\01152026\\position_3_y13.3_xScan1\\145V",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "3_146",
+      "sample": "1cm_42-Position3",
+      "vbias": 146.0,
+      "date": "",
+      "log": {
+        "Run": "3_146",
+        "Surface": "x",
+        "Sample": "1cm_42-Position3",
+        "Vbias (V)": 146.0,
+        "DAC (%)": 63.3,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\01152026\\position_3_y13.3_xScan1\\146V",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "3_147",
+      "sample": "1cm_42-Position3",
+      "vbias": 147.0,
+      "date": "",
+      "log": {
+        "Run": "3_147",
+        "Surface": "x",
+        "Sample": "1cm_42-Position3",
+        "Vbias (V)": 147.0,
+        "DAC (%)": 63.3,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\01152026\\position_3_y13.3_xScan1\\147V",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "3_148",
+      "sample": "1cm_42-Position3",
+      "vbias": 148.0,
+      "date": "",
+      "log": {
+        "Run": "3_148",
+        "Surface": "x",
+        "Sample": "1cm_42-Position3",
+        "Vbias (V)": 148.0,
+        "DAC (%)": 63.3,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\01152026\\position_3_y13.3_xScan1\\148V",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "3_149",
+      "sample": "1cm_42-Position3",
+      "vbias": 149.0,
+      "date": "",
+      "log": {
+        "Run": "3_149",
+        "Surface": "x",
+        "Sample": "1cm_42-Position3",
+        "Vbias (V)": 149.0,
+        "DAC (%)": 63.3,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\01152026\\position_3_y13.3_xScan1\\149V",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "3_150",
+      "sample": "1cm_42-Position3",
+      "vbias": 150.0,
+      "date": "",
+      "log": {
+        "Run": "3_150",
+        "Surface": "x",
+        "Sample": "1cm_42-Position3",
+        "Vbias (V)": 150.0,
+        "DAC (%)": 63.3,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\01152026\\position_3_y13.3_xScan1\\150V",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "1500um",
+      "sample": "1cm_42",
+      "vbias": 150.0,
+      "date": "11/23/2025",
+      "log": {
+        "Run": "1500um",
+        "Surface": "x",
+        "Sample": "1cm_42",
+        "Vbias (V)": 150.0,
+        "DAC (%)": 63.5,
+        "Bandwidth": "500MHz",
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\Xscan\\1500um",
+        "Irradiation (Fluence)": 0.0,
+        "Date": "11/23/2025",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "1cm_0V",
+      "sample": "new1cm",
+      "vbias": 0.0,
+      "date": "10/23/2025",
+      "log": {
+        "Run": "1cm_0V",
+        "Surface": "x",
+        "Sample": "new1cm",
+        "Vbias (V)": 0.0,
+        "DAC (%)": 63.3,
+        "Bandwidth": "500MHz",
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\0V_102625\\1cm_0V_35MIPs",
+        "Irradiation (Fluence)": 0.0,
+        "Notes": "0V_35MIP_1cm",
+        "Date": "10/23/2025",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "1cm_43",
+      "sample": "new1cm",
+      "vbias": 150.0,
+      "date": "11/13/2025",
+      "log": {
+        "Run": "1cm_43",
+        "Sample": "new1cm",
+        "Vbias (V)": 150.0,
+        "DAC (%)": 63.3,
+        "Bandwidth": "500MHz",
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\111325\\150V_1cm_35MIP",
+        "Irradiation (Fluence)": 0.0,
+        "Notes": "new wirebonds on 1cm, 35MIP 150V",
+        "Date": "11/13/2025",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "3265um",
+      "sample": "1cm_42",
+      "vbias": 150.0,
+      "date": "11/23/2025",
+      "log": {
+        "Run": "3265um",
+        "Surface": "x",
+        "Sample": "1cm_42",
+        "Vbias (V)": 150.0,
+        "DAC (%)": 63.5,
+        "Bandwidth": "500",
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\Xscan\\73.36_RT\\3265um",
+        "Irradiation (Fluence)": 0.0,
+        "Date": "11/23/2025"
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "5000um",
+      "sample": "1cm_42",
+      "vbias": 150.0,
+      "date": "11/23/2025",
+      "log": {
+        "Run": "5000um",
+        "Surface": "x",
+        "Sample": "1cm_42",
+        "Vbias (V)": 150.0,
+        "DAC (%)": 63.5,
+        "Bandwidth": "500MHz",
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\Xscan\\5000um",
+        "Irradiation (Fluence)": 0.0,
+        "Date": "11/23/2025",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "5mm_23",
+      "sample": "5mm_23",
+      "vbias": 150.0,
+      "date": "10/17/2025",
+      "log": {
+        "Run": "5mm_23",
+        "Surface": "x",
+        "Sample": "5mm_23",
+        "Vbias (V)": 150.0,
+        "DAC (%)": 63.3,
+        "Bandwidth": "500MHz",
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\5mm023_risetime",
+        "Irradiation (Fluence)": 0.0,
+        "Notes": "Checking risetime",
+        "Date": "10/17/2025",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "73.6um",
+      "sample": "1cm_42",
+      "vbias": 150.0,
+      "date": "11/21/2025",
+      "log": {
+        "Run": "73.6um",
+        "Surface": "x",
+        "Sample": "1cm_42",
+        "Vbias (V)": 150.0,
+        "DAC (%)": 63.5,
+        "Bandwidth": "500MHz",
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\Xscan\\73.6um",
+        "Irradiation (Fluence)": 0.0,
+        "Notes": "73.6um into the right ",
+        "Date": "11/21/2025",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "new1cm",
+      "sample": "new1cm",
+      "vbias": 150.0,
+      "date": "10/13/2025",
+      "log": {
+        "Run": "new1cm",
+        "Surface": "x",
+        "Sample": "new1cm",
+        "Vbias (V)": 150.0,
+        "DAC (%)": 64.4,
+        "Bandwidth": "500MHz",
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\5MIP_101325\\1cm",
+        "Irradiation (Fluence)": 0.0,
+        "Notes": "MIP Cal w/ 5MIP from TD",
+        "Date": "10/13/2025",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "old5mm",
+      "sample": "old5",
+      "vbias": 100.0,
+      "date": "10/13/2025",
+      "log": {
+        "Run": "old5mm",
+        "Surface": "x",
+        "Sample": "old5",
+        "Vbias (V)": 100.0,
+        "DAC (%)": 64.4,
+        "Bandwidth": "500MHz",
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\5MIP_101325\\old5mm\\5mmold_probably",
+        "Irradiation (Fluence)": 0.0,
+        "Notes": "MIP Cal w/ 5MIP from TD",
+        "Date": "10/13/2025",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "5mm)old",
+      "sample": "5mm_old",
+      "vbias": 100.0,
+      "date": "10/23/2025",
+      "log": {
+        "Run": "5mm)old",
+        "Surface": "x",
+        "Sample": "5mm_old",
+        "Vbias (V)": 100.0,
+        "DAC (%)": 63.3,
+        "Bandwidth": "500MHz",
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\5mm_old_risetime",
+        "Irradiation (Fluence)": 0.0,
+        "Notes": "Checking risetime",
+        "Date": "10/23/2025",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "MIPcal1",
+      "sample": "new5",
+      "vbias": 150.0,
+      "date": "10/3/2025",
+      "log": {
+        "Run": "MIPcal1",
+        "Surface": "x",
+        "Sample": "new5",
+        "Vbias (V)": 150.0,
+        "DAC (%)": 65.2,
+        "Bandwidth": "500MHz",
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\TD_MIPCalibration_92725_65.2DAC\\new_5mmLGAD",
+        "Irradiation (Fluence)": 0.0,
+        "Notes": "MIP Cal with new 5mm LGAD, 5 MIPs used",
+        "Date": "10/3/2025",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "MIPcal2",
+      "sample": "old5",
+      "vbias": 105.0,
+      "date": "10/3/2025",
+      "log": {
+        "Run": "MIPcal2",
+        "Surface": "x",
+        "Sample": "old5",
+        "Vbias (V)": 105.0,
+        "DAC (%)": 65.2,
+        "Bandwidth": "500MHz",
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\TD_MIPCalibration_92725_65.2DAC\\old_5mm_LGAD",
+        "Irradiation (Fluence)": 0.0,
+        "Notes": "MIP Cal with old 5mm LGAD, 5 MIPs used",
+        "Date": "10/3/2025",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "MIPcal3",
+      "sample": "new1cm",
+      "vbias": 150.0,
+      "date": "10/3/2025",
+      "log": {
+        "Run": "MIPcal3",
+        "Surface": "x",
+        "Sample": "new1cm",
+        "Vbias (V)": 150.0,
+        "DAC (%)": 65.2,
+        "Bandwidth": "500MHz",
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\TD_MIPCalibration_92725_65.2DAC\\New1cm_LGAD",
+        "Irradiation (Fluence)": 0.0,
+        "Notes": "MIP Cal with new 1cm LGAD, 5MIPs used",
+        "Date": "10/3/2025",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "MIPcal4",
+      "sample": "new2,3_5mm",
+      "vbias": 150.0,
+      "date": "10/3/2025",
+      "log": {
+        "Run": "MIPcal4",
+        "Surface": "x",
+        "Sample": "new2,3_5mm",
+        "Vbias (V)": 150.0,
+        "DAC (%)": 65.2,
+        "Bandwidth": "500MHz",
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\TD_MIPCalibration_92725_65.2DAC\\2,3_new_5mmLGAD",
+        "Irradiation (Fluence)": 0.0,
+        "Notes": "MIP Cal with new 2,3 5mmLGAD",
+        "Date": "10/3/2025",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "new1cm2",
+      "sample": "new1cm",
+      "vbias": 150.0,
+      "date": "10/15/2025",
+      "log": {
+        "Run": "new1cm2",
+        "Surface": "x",
+        "Sample": "new1cm",
+        "Vbias (V)": 150.0,
+        "DAC (%)": 64.4,
+        "Bandwidth": "500MHz",
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\5MIP_101525\\new1cm",
+        "Irradiation (Fluence)": 0.0,
+        "Notes": "MIP Cal W/ 5MIP from TD",
+        "Date": "10/15/2025",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "new1cm3",
+      "sample": "new1cm",
+      "vbias": 150.0,
+      "date": "10/16/2025",
+      "log": {
+        "Run": "new1cm3",
+        "Surface": "x",
+        "Sample": "new1cm",
+        "Vbias (V)": 150.0,
+        "DAC (%)": 63.3,
+        "Bandwidth": "500MHz",
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\10MIP_101625",
+        "Irradiation (Fluence)": 0.0,
+        "Notes": "MIP Cal w/35MIP, 63.3DAC, temperature change from 23 to 27 w/ peltier element active",
+        "Date": "10/16/2025",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "new1cm4",
+      "sample": "new1cm",
+      "vbias": 150.0,
+      "date": "10/17/2025",
+      "log": {
+        "Run": "new1cm4",
+        "Surface": "x",
+        "Sample": "new1cm",
+        "Vbias (V)": 150.0,
+        "DAC (%)": 63.3,
+        "Bandwidth": "500MHz",
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\35MIP_101725\\1cm",
+        "Irradiation (Fluence)": 0.0,
+        "Notes": "MIP Cal w/ 35 MIP 63.3 DAC only DC coupled wirebond",
+        "Date": "10/17/2025",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "old5mm2",
+      "sample": "old5",
+      "vbias": 100.0,
+      "date": "10/17/2025",
+      "log": {
+        "Run": "old5mm2",
+        "Surface": "x",
+        "Sample": "old5",
+        "Vbias (V)": 100.0,
+        "DAC (%)": 63.3,
+        "Bandwidth": "500MHz",
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\35MIP_101725\\old5mm",
+        "Irradiation (Fluence)": 0.0,
+        "Notes": "MIP Cal w/ 35MIPs old5mm lgad",
+        "Date": "10/17/2025",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "old5mm3",
+      "sample": "old5",
+      "vbias": 100.0,
+      "date": "10/23/2025",
+      "log": {
+        "Run": "old5mm3",
+        "Surface": "x",
+        "Sample": "old5",
+        "Vbias (V)": 100.0,
+        "DAC (%)": 63.3,
+        "Bandwidth": "500MHz",
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\35MIP_102325\\5mm_old",
+        "Irradiation (Fluence)": 0.0,
+        "Notes": "MIP Cal w/ old 5mm, new wirebonds, 35MIPs",
+        "Date": "10/23/2025",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "TD_E_TCT",
+      "sample": "TD",
+      "vbias": 350.0,
+      "date": "4/23/2026",
+      "log": {
+        "Run": "TD_E_TCT",
+        "Edge": "x",
+        "Sample": "TD",
+        "Vbias (V)": 350.0,
+        "DAC (%)": 61.6,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\EdgeTCT\\042326",
+        "Notes": "Before Polishing",
+        "Date": "4/23/2026"
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "1cm_4MIPs",
+      "sample": "new1cm",
+      "vbias": 150.0,
+      "date": "10/23/2025",
+      "log": {
+        "Run": "1cm_4MIPs",
+        "Sample": "new1cm",
+        "Vbias (V)": 150.0,
+        "DAC (%)": 65.3,
+        "Bandwidth": "500MHz",
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\103025\\1cm_150V_4MIPs",
+        "Irradiation (Fluence)": 0.0,
+        "Notes": "150V_4MIPs_Acstrip wirebonded",
+        "Date": "10/23/2025",
+        "Gain Constant": 0.628
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "5mm_23_0V",
+      "sample": "5mm_23",
+      "vbias": 0.0,
+      "date": "10/23/2025",
+      "log": {
+        "Run": "5mm_23_0V",
+        "Surface": "x",
+        "Sample": "5mm_23",
+        "Vbias (V)": 0.0,
+        "DAC (%)": 63.3,
+        "Bandwidth": "500MHz",
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\0V_102625\\5mm_23_0V_35MIPs",
+        "Irradiation (Fluence)": 0.0,
+        "Notes": "0V_35MIP_5mm_23",
+        "Date": "10/23/2025",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "GainCalib",
+      "sample": "1cm_42-Position1",
+      "vbias": 150.0,
+      "date": "12/13/2025",
+      "log": {
+        "Run": "GainCalib",
+        "Surface": "x",
+        "Sample": "1cm_42-Position1",
+        "Vbias (V)": 150.0,
+        "DAC (%)": 63.5,
+        "Bandwidth": "600MHz",
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\GainCalib_121325_2ndtry\\150V",
+        "Irradiation (Fluence)": 0.0,
+        "Notes": "gaincalibtest",
+        "Date": "12/13/2025",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "old5mm_0V",
+      "sample": "old5",
+      "vbias": 0.0,
+      "date": "10/23/2025",
+      "log": {
+        "Run": "old5mm_0V",
+        "Surface": "x",
+        "Sample": "old5",
+        "Vbias (V)": 0.0,
+        "DAC (%)": 63.3,
+        "Bandwidth": "500MHz",
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\0V_102625\\old5mm_0V_35MIPs",
+        "Irradiation (Fluence)": 0.0,
+        "Notes": "0V_35MIP_old5",
+        "Date": "10/23/2025",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "5mm_23_WB1",
+      "sample": "5mm_23",
+      "vbias": 163.0,
+      "date": "11/14/2025",
+      "log": {
+        "Run": "5mm_23_WB1",
+        "Surface": "x",
+        "Sample": "5mm_23",
+        "Vbias (V)": 163.0,
+        "DAC (%)": 63.3,
+        "Bandwidth": "500MHz",
+        "Path": "C:/Users/APD-l/Desktop/TCT/LGAD/111425/163V_35MIP_5mm23",
+        "Irradiation (Fluence)": 0.0,
+        "Notes": "Correctintg Gain to 1cmm_43",
+        "Date": "11/14/2025",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "5mm_23_WB2",
+      "sample": "5mm_23",
+      "vbias": 163.0,
+      "date": "12/1/2025",
+      "log": {
+        "Run": "5mm_23_WB2",
+        "Surface": "x",
+        "Sample": "5mm_23",
+        "Vbias (V)": 163.0,
+        "DAC (%)": 63.5,
+        "Bandwidth": "500MHz",
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\5mm_23_wirebond",
+        "Irradiation (Fluence)": 0.0,
+        "Notes": "Testing New Wirebond",
+        "Date": "12/1/2025",
+        "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "TD_E_TCT_2",
+      "sample": "TD",
+      "vbias": 150.0,
+      "date": "4/23/2026",
+      "log": {
+        "Run": "TD_E_TCT_2",
+        "Edge": "x",
+        "Sample": "TD",
+        "Vbias (V)": 150.0,
+        "DAC (%)": 61.6,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\EdgeTCT\\042326\\150V",
+        "Notes": "Before Polishing",
+        "Date": "4/23/2026"
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "TD_E_TCT_3",
+      "sample": "TD",
+      "vbias": 50.0,
+      "date": "4/23/2026",
+      "log": {
+        "Run": "TD_E_TCT_3",
+        "Edge": "x",
+        "Sample": "TD",
+        "Vbias (V)": 50.0,
+        "DAC (%)": 61.6,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\EdgeTCT\\042326\\50V",
+        "Notes": "Before Polishing",
+        "Date": "4/23/2026"
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "TD_E_TCT_4",
+      "sample": "TD",
+      "vbias": 350.0,
+      "date": "",
+      "log": {
+        "Run": "TD_E_TCT_4",
+        "Edge": "x",
+        "Sample": "TD",
+        "Vbias (V)": 350.0,
+        "DAC (%)": 63.0,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\EdgeTCT\\071626\\350V_63DAC"
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "TD_E_TCT_5",
+      "sample": "TD",
+      "vbias": 150.0,
+      "date": "",
+      "log": {
+        "Run": "TD_E_TCT_5",
+        "Edge": "x",
+        "Sample": "TD",
+        "Vbias (V)": 150.0,
+        "DAC (%)": 63.0,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\EdgeTCT\\071626\\150V_63DAC"
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "TD_E_TCT_6",
+      "sample": "TD",
+      "vbias": 50.0,
+      "date": "",
+      "log": {
+        "Run": "TD_E_TCT_6",
+        "Edge": "x",
+        "Sample": "TD",
+        "Vbias (V)": 50.0,
+        "DAC (%)": 63.0,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\EdgeTCT\\071626\\50V_63DAC"
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true
+    },
+    {
+      "run_id": "5mm_23_35MIP",
+      "sample": "5mm_23",
+      "vbias": 150.0,
+      "date": "10/17/2025",
+      "log": {
+        "Run": "5mm_23_35MIP",
+        "Surface": "x",
+        "Sample": "5mm_23",
+        "Vbias (V)": 150.0,
+        "DAC (%)": 63.3,
+        "Bandwidth": "500MHz",
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\35MIP_101725\\5mm_23",
+        "Irradiation (Fluence)": 0.0,
+        "Notes": "MIP Cal w/ 35 MIP 63.3 DAC 5mm_23",
+        "Date": "10/17/2025",
         "Gain Constant": 5.5
       },
       "type": "",

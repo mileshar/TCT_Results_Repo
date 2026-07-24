@@ -1,26 +1,3 @@
 {
-  "folders": [
-    {
-      "name": "Analysis Results",
-      "files": [
-        {
-          "name": "Run1_Summary.pdf",
-          "url": "files/1/Run1_Summary.pdf"
-        }
-      ]
-    },
-    {
-      "name": "pngs",
-      "files": [
-        {
-          "name": "page_01.png",
-          "url": "files/1/pngs/page_01.png"
-        },
-        {
-          "name": "page_02.png",
-          "url": "files/1/pngs/page_02.png"
-        }
-      ]
-    }
-  ]
+  "folders": []
 }
