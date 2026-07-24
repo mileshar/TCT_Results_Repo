@@ -65,6 +65,11 @@
     <li class="nav-item"><a class="nav-link"         href="#" data-repotype="etct"   onclick="setRepoType('etct');return false">E-TCT</a></li>
     <li class="nav-item"><a class="nav-link"         href="#" data-repotype="tct"    onclick="setRepoType('tct');return false">TCT</a></li>
   </ul>
+  <div class="d-flex align-items-center gap-3 mb-3">
+    <input id="repo-search" class="form-control form-control-sm" style="max-width:280px"
+           placeholder="Search by run number, sample, Vbias, type, or date">
+    <span id="repo-search-count" class="text-muted small"></span>
+  </div>
   <div id="repo-runs-list"></div>
 </div>
 
@@ -82,7 +87,7 @@ document.querySelectorAll('#mainTabs .nav-link').forEach(a => {
 });
 
 async function fetchJson(path) {
-  const r = await fetch(path);
+  const r = await fetch(path, {cache: 'no-store'});
   return r.json();
 }
 
@@ -135,6 +140,8 @@ document.getElementById('log-search').addEventListener('input', e => {
 // ─── Repository ─────────────────────────────────────────────────────────────
 let _repoType = 'all';
 let _repoRuns = [];
+let _repoRunsFiltered = [];
+let _repoSearchQuery = '';
 
 function setRepoType(rt) {
   _repoType = rt;
@@ -147,16 +154,45 @@ async function loadRepo() {
   el.innerHTML = '<em class="text-muted">Loading…</em>';
   const r = await fetchJson(`data/repo_runs_${_repoType}.json`);
   _repoRuns = r.runs || [];
+  applyRepoSearch();
+}
+
+// Matches against a curated set of identifying fields only (run number,
+// sample, Vbias, type, date) — not the full log blob, since free-text
+// fields like Notes can coincidentally contain unrelated numbers (e.g. a
+// note mentioning "300V" on a run whose actual Vbias is 350) and pollute
+// the results.
+function _repoRunMatches(run, q) {
+  if (!q) return true;
+  // run_id is stored bare ("5"), so let "5", "Run5", and "Run 5" all match
+  // by stripping a leading "run" from the query before comparing.
+  const runIdQuery = q.replace(/^run\s*/, '');
+  if (runIdQuery && String(run.run_id).toLowerCase().includes(runIdQuery)) return true;
+  const fields = [run.sample, run.vbias, run.type_label, run.date];
+  return fields.some(v => String(v ?? '').toLowerCase().includes(q));
+}
+
+function applyRepoSearch() {
+  _repoRunsFiltered = _repoRuns.filter(run => _repoRunMatches(run, _repoSearchQuery));
+  const countEl = document.getElementById('repo-search-count');
+  countEl.textContent = _repoSearchQuery
+    ? `${_repoRunsFiltered.length} of ${_repoRuns.length} runs`
+    : '';
   renderRepoRuns();
 }
 
+document.getElementById('repo-search').addEventListener('input', e => {
+  _repoSearchQuery = e.target.value.trim().toLowerCase();
+  applyRepoSearch();
+});
+
 function renderRepoRuns() {
   const el = document.getElementById('repo-runs-list');
-  if (!_repoRuns.length) {
-    el.innerHTML = '<p class="text-muted">No runs in this section.</p>';
+  if (!_repoRunsFiltered.length) {
+    el.innerHTML = `<p class="text-muted">${_repoRuns.length ? 'No runs match your search.' : 'No runs in this section.'}</p>`;
     return;
   }
-  const items = _repoRuns.map((run, i) => {
+  const items = _repoRunsFiltered.map((run, i) => {
     const logEntries = Object.entries(run.log || {});
     const logHtml = logEntries.length
       ? logEntries.map(([k, v]) => `
@@ -197,7 +233,7 @@ function renderRepoRuns() {
 }
 
 async function loadRunFiles(i) {
-  const run = _repoRuns[i];
+  const run = _repoRunsFiltered[i];
   const el  = document.getElementById(`repo-files-${i}`);
   if (!run || !el) return;
   el.innerHTML = '<em class="text-muted">Loading…</em>';
