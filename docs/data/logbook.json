@@ -1,5 +1,59 @@
 {
-  "columns": [],
-  "rows": [],
-  "note": "Logbook file not found"
+  "columns": [
+    "Run Number",
+    "Measurment Type",
+    "DUT",
+    "DAC",
+    "Vbias",
+    "Date",
+    "T0",
+    "Tf",
+    "Notes"
+  ],
+  "rows": [
+    {
+      "Run Number": 1,
+      "Measurment Type": "Edge",
+      "DUT": "TD_4004",
+      "DAC": 61.6,
+      "Vbias": 350,
+      "Date": "2026-04-23 00:00:00",
+      "T0": 22.8,
+      "Tf": 22.9,
+      "Notes": "Testing TD4004 before polishing, waited about 1.5 hrs for LASER"
+    },
+    {
+      "Run Number": 2,
+      "Measurment Type": "Edge",
+      "DUT": "TD_4004",
+      "DAC": 61.6,
+      "Vbias": 50,
+      "Date": "2026-04-23 00:00:00",
+      "T0": 23.3,
+      "Tf": 23.3,
+      "Notes": "Testing TD4004 before polishing at 50V"
+    },
+    {
+      "Run Number": 3,
+      "Measurment Type": "Edge",
+      "DUT": "TD_4004",
+      "DAC": 61.6,
+      "Vbias": 150,
+      "Date": "2026-04-23 00:00:00",
+      "T0": 23.3,
+      "Tf": 23.4,
+      "Notes": "Testing TD4004 before polishing at 150V"
+    },
+    {
+      "Run Number": "1cm_42_multichannel_1",
+      "Measurment Type": "Surface",
+      "DUT": "1cm_42",
+      "DAC": 63.3,
+      "Vbias": -150,
+      "Date": "2026-07-25 00:00:00",
+      "T0": 20.0,
+      "Tf": 22.1,
+      "Notes": "first test with multichannel setup"
+    }
+  ]
 }

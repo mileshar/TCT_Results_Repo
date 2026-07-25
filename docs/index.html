@@ -60,22 +60,30 @@
 <!-- ── Repository ── -->
 <div id="tab-repository" class="tab-pane p-3" style="display:none">
   <ul class="nav nav-pills mb-3" id="repoTypeNav">
-    <li class="nav-item"><a class="nav-link active" href="#" data-repotype="all"    onclick="setRepoType('all');return false">All</a></li>
-    <li class="nav-item"><a class="nav-link"         href="#" data-repotype="aclgad" onclick="setRepoType('aclgad');return false">AC-LGAD</a></li>
-    <li class="nav-item"><a class="nav-link"         href="#" data-repotype="etct"   onclick="setRepoType('etct');return false">E-TCT</a></li>
-    <li class="nav-item"><a class="nav-link"         href="#" data-repotype="tct"    onclick="setRepoType('tct');return false">TCT</a></li>
+    <li class="nav-item"><a class="nav-link active" href="#" data-repotype="all"           onclick="setRepoType('all');return false">All</a></li>
+    <li class="nav-item"><a class="nav-link"         href="#" data-repotype="aclgad"        onclick="setRepoType('aclgad');return false">AC-LGAD</a></li>
+    <li class="nav-item"><a class="nav-link"         href="#" data-repotype="etct"          onclick="setRepoType('etct');return false">E-TCT</a></li>
+    <li class="nav-item"><a class="nav-link"         href="#" data-repotype="tct"           onclick="setRepoType('tct');return false">TCT</a></li>
+    <li class="nav-item"><a class="nav-link"         href="#" data-repotype="superimposed"  onclick="setRepoType('superimposed');return false">Superimposed</a></li>
   </ul>
-  <div class="d-flex align-items-center gap-3 mb-3 flex-wrap">
-    <input id="repo-search" class="form-control form-control-sm" style="max-width:280px"
-           placeholder="Search by run number, sample, Vbias, type, or date">
-    <div class="btn-group btn-group-sm" id="scan-type-filter">
-      <button class="btn btn-outline-secondary active" data-filter="all">All</button>
-      <button class="btn btn-outline-secondary" data-filter="distance_scan">1D Scans</button>
-      <button class="btn btn-outline-secondary" data-filter="single">Single Waveforms</button>
+
+  <!-- Superimposed view -->
+  <div id="repo-superimposed-list" style="display:none"></div>
+
+  <!-- Normal runs view -->
+  <div id="repo-runs-view">
+    <div class="d-flex align-items-center gap-3 mb-3 flex-wrap">
+      <input id="repo-search" class="form-control form-control-sm" style="max-width:280px"
+             placeholder="Search by run number, sample, Vbias, type, or date">
+      <div class="btn-group btn-group-sm" id="scan-type-filter">
+        <button class="btn btn-outline-secondary active" data-filter="all">All</button>
+        <button class="btn btn-outline-secondary" data-filter="distance_scan">1D Scans</button>
+        <button class="btn btn-outline-secondary" data-filter="single">Single Waveforms</button>
+      </div>
+      <span id="repo-search-count" class="text-muted small"></span>
     </div>
-    <span id="repo-search-count" class="text-muted small"></span>
+    <div id="repo-runs-list"></div>
   </div>
-  <div id="repo-runs-list"></div>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
@@ -161,7 +169,11 @@ document.querySelectorAll('#scan-type-filter button').forEach(btn => {
 function setRepoType(rt) {
   _repoType = rt;
   document.querySelectorAll('[data-repotype]').forEach(a => a.classList.toggle('active', a.dataset.repotype === rt));
-  loadRepo();
+  const isSuperimposed = rt === 'superimposed';
+  document.getElementById('repo-superimposed-list').style.display = isSuperimposed ? '' : 'none';
+  document.getElementById('repo-runs-view').style.display          = isSuperimposed ? 'none' : '';
+  if (isSuperimposed) loadSuperimposed();
+  else loadRepo();
 }
 
 async function loadRepo() {
@@ -170,6 +182,35 @@ async function loadRepo() {
   const r = await fetchJson(`data/repo_runs_${_repoType}.json`);
   _repoRuns = r.runs || [];
   applyRepoSearch();
+}
+
+async function loadSuperimposed() {
+  const el = document.getElementById('repo-superimposed-list');
+  el.innerHTML = '<em class="text-muted">Loading…</em>';
+  const r = await fetchJson('data/superimposed.json');
+  const items = r.items || [];
+  if (!items.length) {
+    el.innerHTML = '<p class="text-muted">No superimposed summaries found.</p>';
+    return;
+  }
+  el.innerHTML = '<div class="accordion" id="superimposedAccordion">' +
+    items.map((item, i) => `
+    <div class="accordion-item">
+      <h2 class="accordion-header mb-0">
+        <button class="accordion-button collapsed" type="button"
+                data-bs-toggle="collapse" data-bs-target="#sup-${i}">
+          <strong>${item.folder}</strong>
+          <span class="text-muted small ms-3">Runs: ${item.run_ids.join(', ')}</span>
+        </button>
+      </h2>
+      <div id="sup-${i}" class="accordion-collapse collapse">
+        <div class="accordion-body">
+          <div class="d-flex flex-wrap gap-2">
+            ${item.pdfs.map(f => `<a href="${f.url}" target="_blank" class="btn btn-sm btn-outline-success">${f.name}</a>`).join('')}
+          </div>
+        </div>
+      </div>
+    </div>`).join('') + '</div>';
 }
 
 // Matches against a curated set of identifying fields only (run number,

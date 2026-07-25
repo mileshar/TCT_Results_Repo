@@ -1,0 +1,195 @@
+{
+  "items": [
+    {
+      "folder": "Run_0V_TD_1cm_0V_5mm_23_0V_old5mm_0V",
+      "run_ids": [
+        "0V",
+        "TD",
+        "1cm",
+        "0V",
+        "5mm",
+        "23",
+        "0V",
+        "old5mm",
+        "0V"
+      ],
+      "pdfs": [
+        {
+          "name": "Run_0V_TD_1cm_0V_5mm_23_0V_old5mm_0V_Superimposed_Summary.pdf",
+          "url": "files/superimposed/Run_0V_TD_1cm_0V_5mm_23_0V_old5mm_0V/Run_0V_TD_1cm_0V_5mm_23_0V_old5mm_0V_Superimposed_Summary.pdf"
+        }
+      ]
+    },
+    {
+      "folder": "Run_155um_395um_3265um",
+      "run_ids": [
+        "155um",
+        "395um",
+        "3265um"
+      ],
+      "pdfs": [
+        {
+          "name": "Run_155um_395um_3265um_Superimposed_Summary.pdf",
+          "url": "files/superimposed/Run_155um_395um_3265um/Run_155um_395um_3265um_Superimposed_Summary.pdf"
+        }
+      ]
+    },
+    {
+      "folder": "Run_1cm_43_5mm_23_163",
+      "run_ids": [
+        "1cm",
+        "43",
+        "5mm",
+        "23",
+        "163"
+      ],
+      "pdfs": [
+        {
+          "name": "Run_1cm_43_5mm_23_163_Superimposed_Summary.pdf",
+          "url": "files/superimposed/Run_1cm_43_5mm_23_163/Run_1cm_43_5mm_23_163_Superimposed_Summary.pdf"
+        }
+      ]
+    },
+    {
+      "folder": "Run_5mm_23_WB1_5mm_23_WB2",
+      "run_ids": [
+        "5mm",
+        "23",
+        "WB1",
+        "5mm",
+        "23",
+        "WB2"
+      ],
+      "pdfs": [
+        {
+          "name": "Run_5mm_23_WB1_5mm_23_WB2_Superimposed_Summary.pdf",
+          "url": "files/superimposed/Run_5mm_23_WB1_5mm_23_WB2/Run_5mm_23_WB1_5mm_23_WB2_Superimposed_Summary.pdf"
+        }
+      ]
+    },
+    {
+      "folder": "Run_73.6um_1500um_5000um",
+      "run_ids": [
+        "73.6um",
+        "1500um",
+        "5000um"
+      ],
+      "pdfs": [
+        {
+          "name": "Run_73.6um_1500um_5000um_Superimposed_Summary.pdf",
+          "url": "files/superimposed/Run_73.6um_1500um_5000um/Run_73.6um_1500um_5000um_Superimposed_Summary.pdf"
+        }
+      ]
+    },
+    {
+      "folder": "Run_MIPcal1_MIPcal2_MIPcal3",
+      "run_ids": [
+        "MIPcal1",
+        "MIPcal2",
+        "MIPcal3"
+      ],
+      "pdfs": [
+        {
+          "name": "Run_MIPcal1_MIPcal2_MIPcal3_Superimposed_Summary.pdf",
+          "url": "files/superimposed/Run_MIPcal1_MIPcal2_MIPcal3/Run_MIPcal1_MIPcal2_MIPcal3_Superimposed_Summary.pdf"
+        }
+      ]
+    },
+    {
+      "folder": "Run_MIPcal1_MIPcal2_MIPcal3_MIPcal4",
+      "run_ids": [
+        "MIPcal1",
+        "MIPcal2",
+        "MIPcal3",
+        "MIPcal4"
+      ],
+      "pdfs": [
+        {
+          "name": "Run_MIPcal1_MIPcal2_MIPcal3_MIPcal4_Superimposed_Summary.pdf",
+          "url": "files/superimposed/Run_MIPcal1_MIPcal2_MIPcal3_MIPcal4/Run_MIPcal1_MIPcal2_MIPcal3_MIPcal4_Superimposed_Summary.pdf"
+        }
+      ]
+    },
+    {
+      "folder": "Run_new1cm4_5mm_23_35MIP_old5mm3",
+      "run_ids": [
+        "new1cm4",
+        "5mm",
+        "23",
+        "35MIP",
+        "old5mm3"
+      ],
+      "pdfs": [
+        {
+          "name": "Run_new1cm4_5mm_23_35MIP_old5mm3_Superimposed_Summary.pdf",
+          "url": "files/superimposed/Run_new1cm4_5mm_23_35MIP_old5mm3/Run_new1cm4_5mm_23_35MIP_old5mm3_Superimposed_Summary.pdf"
+        }
+      ]
+    },
+    {
+      "folder": "Run_old5mm2_new1cm2",
+      "run_ids": [
+        "old5mm2",
+        "new1cm2"
+      ],
+      "pdfs": [
+        {
+          "name": "Run_old5mm2_new1cm2_Superimposed_Summary.pdf",
+          "url": "files/superimposed/Run_old5mm2_new1cm2/Run_old5mm2_new1cm2_Superimposed_Summary.pdf"
+        }
+      ]
+    },
+    {
+      "folder": "Run_old5mm3_5mm_23_35MIP_new1cm4",
+      "run_ids": [
+        "old5mm3",
+        "5mm",
+        "23",
+        "35MIP",
+        "new1cm4"
+      ],
+      "pdfs": [
+        {
+          "name": "Run_old5mm3_5mm_23_35MIP_new1cm4_Superimposed_Summary.pdf",
+          "url": "files/superimposed/Run_old5mm3_5mm_23_35MIP_new1cm4/Run_old5mm3_5mm_23_35MIP_new1cm4_Superimposed_Summary.pdf"
+        }
+      ]
+    },
+    {
+      "folder": "Run_old5mm_new1cm",
+      "run_ids": [
+        "old5mm",
+        "new1cm"
+      ],
+      "pdfs": [
+        {
+          "name": "Run_old5mm_new1cm_Superimposed_Summary.pdf",
+          "url": "files/superimposed/Run_old5mm_new1cm/Run_old5mm_new1cm_Superimposed_Summary.pdf"
+        }
+      ]
+    },
+    {
+      "folder": "Run_TD_E_TCT_4_TD_E_TCT_5_TD_E_TCT_6",
+      "run_ids": [
+        "TD",
+        "E",
+        "TCT",
+        "4",
+        "TD",
+        "E",
+        "TCT",
+        "5",
+        "TD",
+        "E",
+        "TCT",
+        "6"
+      ],
+      "pdfs": [
+        {
+          "name": "Run_TD_E_TCT_4_TD_E_TCT_5_TD_E_TCT_6_Superimposed_Summary.pdf",
+          "url": "files/superimposed/Run_TD_E_TCT_4_TD_E_TCT_5_TD_E_TCT_6/Run_TD_E_TCT_4_TD_E_TCT_5_TD_E_TCT_6_Superimposed_Summary.pdf"
+        }
+      ]
+    }
+  ]
+}
