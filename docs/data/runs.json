@@ -26,7 +26,8 @@
       "Irradiation (Fluence)": 0.0,
       "Notes": "Test Run",
       "Date": "Test",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": ""
     },
     {
       "Run": "2",
@@ -40,7 +41,8 @@
       "Irradiation (Fluence)": 0.0,
       "Notes": "Test Run",
       "Date": "Test",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": ""
     },
     {
       "Run": "3",
@@ -54,7 +56,8 @@
       "Irradiation (Fluence)": 0.0,
       "Notes": "Test Run",
       "Date": "Test",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": ""
     },
     {
       "Run": "4",
@@ -68,7 +71,8 @@
       "Irradiation (Fluence)": 0.0,
       "Notes": "Test Run",
       "Date": "Test",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": ""
     },
     {
       "Run": "5",
@@ -82,7 +86,8 @@
       "Irradiation (Fluence)": 0.0,
       "Notes": "Test Run",
       "Date": "Test",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": ""
     },
     {
       "Run": "6",
@@ -96,7 +101,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": ""
     },
     {
       "Run": "12",
@@ -110,7 +116,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": ""
     },
     {
       "Run": "13",
@@ -124,7 +131,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": ""
     },
     {
       "Run": "MIPcal1",
@@ -138,7 +146,8 @@
       "Irradiation (Fluence)": 0.0,
       "Notes": "MIP Cal with new 5mm LGAD, 5 MIPs used",
       "Date": "10/3/2025",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "distance_scan"
     },
     {
       "Run": "MIPcal2",
@@ -152,7 +161,8 @@
       "Irradiation (Fluence)": 0.0,
       "Notes": "MIP Cal with old 5mm LGAD, 5 MIPs used",
       "Date": "10/3/2025",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "distance_scan"
     },
     {
       "Run": "MIPcal3",
@@ -166,7 +176,8 @@
       "Irradiation (Fluence)": 0.0,
       "Notes": "MIP Cal with new 1cm LGAD, 5MIPs used",
       "Date": "10/3/2025",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "distance_scan"
     },
     {
       "Run": "MIPcal4",
@@ -180,7 +191,8 @@
       "Irradiation (Fluence)": 0.0,
       "Notes": "MIP Cal with new 2,3 5mmLGAD",
       "Date": "10/3/2025",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "distance_scan"
     },
     {
       "Run": "old5mm",
@@ -194,7 +206,8 @@
       "Irradiation (Fluence)": 0.0,
       "Notes": "MIP Cal w/ 5MIP from TD",
       "Date": "10/13/2025",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "distance_scan"
     },
     {
       "Run": "new1cm",
@@ -208,7 +221,8 @@
       "Irradiation (Fluence)": 0.0,
       "Notes": "MIP Cal w/ 5MIP from TD",
       "Date": "10/13/2025",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "distance_scan"
     },
     {
       "Run": "old5mm2",
@@ -222,7 +236,8 @@
       "Irradiation (Fluence)": 0.0,
       "Notes": "MIP Cal w/ 5MIP from TD",
       "Date": "10/15/2025",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "distance_scan"
     },
     {
       "Run": "new1cm2",
@@ -236,7 +251,8 @@
       "Irradiation (Fluence)": 0.0,
       "Notes": "MIP Cal W/ 5MIP from TD",
       "Date": "10/15/2025",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "distance_scan"
     },
     {
       "Run": "new1cm3",
@@ -250,7 +266,8 @@
       "Irradiation (Fluence)": 0.0,
       "Notes": "MIP Cal w/35MIP, 63.3DAC, temperature change from 23 to 27 w/ peltier element active",
       "Date": "10/16/2025",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "distance_scan"
     },
     {
       "Run": "new1cm4",
@@ -264,7 +281,8 @@
       "Irradiation (Fluence)": 0.0,
       "Notes": "MIP Cal w/ 35 MIP 63.3 DAC only DC coupled wirebond",
       "Date": "10/17/2025",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "distance_scan"
     },
     {
       "Run": "5mm_23_35MIP",
@@ -278,7 +296,8 @@
       "Irradiation (Fluence)": 0.0,
       "Notes": "MIP Cal w/ 35 MIP 63.3 DAC 5mm_23",
       "Date": "10/17/2025",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "distance_scan"
     },
     {
       "Run": "old5mm2",
@@ -292,7 +311,8 @@
       "Irradiation (Fluence)": 0.0,
       "Notes": "MIP Cal w/ 35MIPs old5mm lgad",
       "Date": "10/17/2025",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "distance_scan"
     },
     {
       "Run": "old5mm3",
@@ -306,7 +326,8 @@
       "Irradiation (Fluence)": 0.0,
       "Notes": "MIP Cal w/ old 5mm, new wirebonds, 35MIPs",
       "Date": "10/23/2025",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "distance_scan"
     },
     {
       "Run": "5mm_23",
@@ -320,7 +341,8 @@
       "Irradiation (Fluence)": 0.0,
       "Notes": "Checking risetime",
       "Date": "10/17/2025",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "single"
     },
     {
       "Run": "5mm)old",
@@ -334,7 +356,8 @@
       "Irradiation (Fluence)": 0.0,
       "Notes": "Checking risetime",
       "Date": "10/23/2025",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "single"
     },
     {
       "Run": "0V_TD",
@@ -348,7 +371,8 @@
       "Irradiation (Fluence)": 0.0,
       "Notes": "0V_sanitycheck_TD",
       "Date": "10/23/2025",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "distance_scan"
     },
     {
       "Run": "1cm_0V",
@@ -362,7 +386,8 @@
       "Irradiation (Fluence)": 0.0,
       "Notes": "0V_35MIP_1cm",
       "Date": "10/23/2025",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "distance_scan"
     },
     {
       "Run": "5mm_23_0V",
@@ -376,7 +401,8 @@
       "Irradiation (Fluence)": 0.0,
       "Notes": "0V_35MIP_5mm_23",
       "Date": "10/23/2025",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "distance_scan"
     },
     {
       "Run": "old5mm_0V",
@@ -390,7 +416,8 @@
       "Irradiation (Fluence)": 0.0,
       "Notes": "0V_35MIP_old5",
       "Date": "10/23/2025",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "distance_scan"
     },
     {
       "Run": "1cm_4MIPs",
@@ -404,7 +431,8 @@
       "Irradiation (Fluence)": 0.0,
       "Notes": "150V_4MIPs_Acstrip wirebonded",
       "Date": "10/23/2025",
-      "Gain Constant": 0.628
+      "Gain Constant": 0.628,
+      "_scan_type": "distance_scan"
     },
     {
       "Run": "1cm_43",
@@ -418,7 +446,8 @@
       "Irradiation (Fluence)": 0.0,
       "Notes": "new wirebonds on 1cm, 35MIP 150V",
       "Date": "11/13/2025",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "distance_scan"
     },
     {
       "Run": "5mm_23_WB1",
@@ -432,7 +461,8 @@
       "Irradiation (Fluence)": 0.0,
       "Notes": "Correctintg Gain to 1cmm_43",
       "Date": "11/14/2025",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "distance_scan"
     },
     {
       "Run": "73.6um",
@@ -446,7 +476,8 @@
       "Irradiation (Fluence)": 0.0,
       "Notes": "73.6um into the right ",
       "Date": "11/21/2025",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "distance_scan"
     },
     {
       "Run": "1500um",
@@ -460,7 +491,8 @@
       "Irradiation (Fluence)": 0.0,
       "Notes": "",
       "Date": "11/23/2025",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "distance_scan"
     },
     {
       "Run": "5000um",
@@ -474,7 +506,8 @@
       "Irradiation (Fluence)": 0.0,
       "Notes": "",
       "Date": "11/23/2025",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "distance_scan"
     },
     {
       "Run": "155um",
@@ -488,7 +521,8 @@
       "Irradiation (Fluence)": 0.0,
       "Notes": "",
       "Date": "11/23/2025",
-      "Gain Constant": ""
+      "Gain Constant": "",
+      "_scan_type": "single"
     },
     {
       "Run": "395um",
@@ -502,7 +536,8 @@
       "Irradiation (Fluence)": 0.0,
       "Notes": "",
       "Date": "11/23/2025",
-      "Gain Constant": ""
+      "Gain Constant": "",
+      "_scan_type": "single"
     },
     {
       "Run": "3265um",
@@ -516,7 +551,8 @@
       "Irradiation (Fluence)": 0.0,
       "Notes": "",
       "Date": "11/23/2025",
-      "Gain Constant": ""
+      "Gain Constant": "",
+      "_scan_type": "single"
     },
     {
       "Run": "5mm_23_WB2",
@@ -530,7 +566,8 @@
       "Irradiation (Fluence)": 0.0,
       "Notes": "Testing New Wirebond",
       "Date": "12/1/2025",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "distance_scan"
     },
     {
       "Run": "GainCalib",
@@ -544,7 +581,8 @@
       "Irradiation (Fluence)": 0.0,
       "Notes": "gaincalibtest",
       "Date": "12/13/2025",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "single"
     },
     {
       "Run": "1_0",
@@ -558,7 +596,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "single"
     },
     {
       "Run": "1_10",
@@ -572,7 +611,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "single"
     },
     {
       "Run": "1_20",
@@ -586,7 +626,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "single"
     },
     {
       "Run": "1_30",
@@ -600,7 +641,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "single"
     },
     {
       "Run": "1_40",
@@ -614,7 +656,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "single"
     },
     {
       "Run": "1_50",
@@ -628,7 +671,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "single"
     },
     {
       "Run": "1_60",
@@ -642,7 +686,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "single"
     },
     {
       "Run": "1_70",
@@ -656,7 +701,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "single"
     },
     {
       "Run": "1_80",
@@ -670,7 +716,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "single"
     },
     {
       "Run": "1_90",
@@ -684,7 +731,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "single"
     },
     {
       "Run": "1_100",
@@ -698,7 +746,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "single"
     },
     {
       "Run": "1_110",
@@ -712,7 +761,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "single"
     },
     {
       "Run": "1_120",
@@ -726,7 +776,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "single"
     },
     {
       "Run": "1_130",
@@ -740,7 +791,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "single"
     },
     {
       "Run": "1_140",
@@ -754,7 +806,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "single"
     },
     {
       "Run": "1_141",
@@ -768,7 +821,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "single"
     },
     {
       "Run": "1_142",
@@ -782,7 +836,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "single"
     },
     {
       "Run": "1_143",
@@ -796,7 +851,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "single"
     },
     {
       "Run": "1_144",
@@ -810,7 +866,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "single"
     },
     {
       "Run": "1_145",
@@ -824,7 +881,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "single"
     },
     {
       "Run": "1_146",
@@ -838,7 +896,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "single"
     },
     {
       "Run": "1_147",
@@ -852,7 +911,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "single"
     },
     {
       "Run": "1_148",
@@ -866,7 +926,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "single"
     },
     {
       "Run": "1_149",
@@ -880,7 +941,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "single"
     },
     {
       "Run": "1_150",
@@ -894,7 +956,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "single"
     },
     {
       "Run": "2_0",
@@ -908,7 +971,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "single"
     },
     {
       "Run": "2_10",
@@ -922,7 +986,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "single"
     },
     {
       "Run": "2_20",
@@ -936,7 +1001,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "single"
     },
     {
       "Run": "2_30",
@@ -950,7 +1016,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "single"
     },
     {
       "Run": "2_40",
@@ -964,7 +1031,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "single"
     },
     {
       "Run": "2_50",
@@ -978,7 +1046,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "single"
     },
     {
       "Run": "2_60",
@@ -992,7 +1061,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "single"
     },
     {
       "Run": "2_70",
@@ -1006,7 +1076,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "single"
     },
     {
       "Run": "2_80",
@@ -1020,7 +1091,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "single"
     },
     {
       "Run": "2_90",
@@ -1034,7 +1106,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "single"
     },
     {
       "Run": "2_100",
@@ -1048,7 +1121,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "single"
     },
     {
       "Run": "2_110",
@@ -1062,7 +1136,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "single"
     },
     {
       "Run": "2_120",
@@ -1076,7 +1151,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "single"
     },
     {
       "Run": "2_130",
@@ -1090,7 +1166,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "single"
     },
     {
       "Run": "2_140",
@@ -1104,7 +1181,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "single"
     },
     {
       "Run": "2_141",
@@ -1118,7 +1196,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "single"
     },
     {
       "Run": "2_142",
@@ -1132,7 +1211,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "single"
     },
     {
       "Run": "2_143",
@@ -1146,7 +1226,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "single"
     },
     {
       "Run": "2_144",
@@ -1160,7 +1241,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "single"
     },
     {
       "Run": "2_145",
@@ -1174,7 +1256,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "single"
     },
     {
       "Run": "2_146",
@@ -1188,7 +1271,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "single"
     },
     {
       "Run": "2_147",
@@ -1202,7 +1286,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "single"
     },
     {
       "Run": "2_148",
@@ -1216,7 +1301,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "single"
     },
     {
       "Run": "2_149",
@@ -1230,7 +1316,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "single"
     },
     {
       "Run": "2_150",
@@ -1244,7 +1331,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "single"
     },
     {
       "Run": "3_0",
@@ -1258,7 +1346,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "single"
     },
     {
       "Run": "3_10",
@@ -1272,7 +1361,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "single"
     },
     {
       "Run": "3_20",
@@ -1286,7 +1376,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "single"
     },
     {
       "Run": "3_30",
@@ -1300,7 +1391,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "single"
     },
     {
       "Run": "3_40",
@@ -1314,7 +1406,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "single"
     },
     {
       "Run": "3_50",
@@ -1328,7 +1421,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "single"
     },
     {
       "Run": "3_60",
@@ -1342,7 +1436,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "single"
     },
     {
       "Run": "3_70",
@@ -1356,7 +1451,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "single"
     },
     {
       "Run": "3_80",
@@ -1370,7 +1466,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "single"
     },
     {
       "Run": "3_90",
@@ -1384,7 +1481,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "single"
     },
     {
       "Run": "3_100",
@@ -1398,7 +1496,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "single"
     },
     {
       "Run": "3_110",
@@ -1412,7 +1511,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "single"
     },
     {
       "Run": "3_120",
@@ -1426,7 +1526,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "single"
     },
     {
       "Run": "3_130",
@@ -1440,7 +1541,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "single"
     },
     {
       "Run": "3_140",
@@ -1454,7 +1556,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "single"
     },
     {
       "Run": "3_141",
@@ -1468,7 +1571,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "single"
     },
     {
       "Run": "3_142",
@@ -1482,7 +1586,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "single"
     },
     {
       "Run": "3_143",
@@ -1496,7 +1601,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "single"
     },
     {
       "Run": "3_144",
@@ -1510,7 +1616,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "single"
     },
     {
       "Run": "3_145",
@@ -1524,7 +1631,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "single"
     },
     {
       "Run": "3_146",
@@ -1538,7 +1646,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "single"
     },
     {
       "Run": "3_147",
@@ -1552,7 +1661,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "single"
     },
     {
       "Run": "3_148",
@@ -1566,7 +1676,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "single"
     },
     {
       "Run": "3_149",
@@ -1580,7 +1691,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "single"
     },
     {
       "Run": "3_150",
@@ -1594,7 +1706,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": 5.5
+      "Gain Constant": 5.5,
+      "_scan_type": "single"
     },
     {
       "Run": "TD_E_TCT",
@@ -1608,7 +1721,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "Before Polishing",
       "Date": "4/23/2026",
-      "Gain Constant": ""
+      "Gain Constant": "",
+      "_scan_type": "distance_scan"
     },
     {
       "Run": "TD_E_TCT_2",
@@ -1622,7 +1736,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "Before Polishing",
       "Date": "4/23/2026",
-      "Gain Constant": ""
+      "Gain Constant": "",
+      "_scan_type": "distance_scan"
     },
     {
       "Run": "TD_E_TCT_3",
@@ -1636,7 +1751,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "Before Polishing",
       "Date": "4/23/2026",
-      "Gain Constant": ""
+      "Gain Constant": "",
+      "_scan_type": "distance_scan"
     },
     {
       "Run": "TD_E_TCT_4",
@@ -1650,7 +1766,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": ""
+      "Gain Constant": "",
+      "_scan_type": "distance_scan"
     },
     {
       "Run": "TD_E_TCT_5",
@@ -1664,7 +1781,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": ""
+      "Gain Constant": "",
+      "_scan_type": "distance_scan"
     },
     {
       "Run": "TD_E_TCT_6",
@@ -1678,7 +1796,8 @@
       "Irradiation (Fluence)": "",
       "Notes": "",
       "Date": "",
-      "Gain Constant": ""
+      "Gain Constant": "",
+      "_scan_type": "distance_scan"
     }
   ]
 }

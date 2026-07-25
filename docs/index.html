@@ -30,9 +30,14 @@
 
 <!-- ── Run List ── -->
 <div id="tab-runs" class="tab-pane p-3">
-  <div class="d-flex align-items-center gap-3 mb-2">
+  <div class="d-flex align-items-center gap-3 mb-2 flex-wrap">
     <h5 class="mb-0">All Runs</h5>
     <input id="run-search" class="form-control form-control-sm" style="max-width:240px" placeholder="Search…">
+    <div class="btn-group btn-group-sm" id="scan-type-filter">
+      <button class="btn btn-outline-secondary active" data-filter="all">All</button>
+      <button class="btn btn-outline-secondary" data-filter="distance_scan">1D Scans</button>
+      <button class="btn btn-outline-secondary" data-filter="single">Single Waveforms</button>
+    </div>
   </div>
   <div style="overflow-x:auto">
     <table class="table table-sm table-bordered table-hover" id="run-table">
@@ -92,26 +97,47 @@ async function fetchJson(path) {
 }
 
 // ─── Run List ───────────────────────────────────────────────────────────────
-let _allRuns = [], _runColumns = [];
+let _allRuns = [], _runColumns = [], _scanTypeFilter = 'all';
 
 async function loadRuns() {
   const r = await fetchJson('data/runs.json');
   _runColumns = r.columns || [];
   _allRuns    = r.rows || [];
-  renderRunTable(_allRuns);
+  applyRunFilters();
+}
+
+function applyRunFilters() {
+  const q = document.getElementById('run-search').value.toLowerCase();
+  renderRunTable(_allRuns.filter(row => {
+    const matchesType = _scanTypeFilter === 'all' || row._scan_type === _scanTypeFilter;
+    const matchesSearch = !q || _runColumns.some(c => String(row[c] || '').toLowerCase().includes(q));
+    return matchesType && matchesSearch;
+  }));
 }
 
 function renderRunTable(rows) {
   document.getElementById('run-thead').innerHTML =
     '<tr>' + _runColumns.map(c => `<th>${c}</th>`).join('') + '</tr>';
-  document.getElementById('run-tbody').innerHTML = rows.map(row =>
-    '<tr class="run-row">' + _runColumns.map(c => `<td>${row[c] ?? ''}</td>`).join('') + '</tr>'
-  ).join('');
+  document.getElementById('run-tbody').innerHTML = rows.map(row => {
+    const badge = row._scan_type === 'distance_scan'
+      ? '<span class="badge bg-primary ms-1">1D</span>'
+      : row._scan_type === 'single'
+      ? '<span class="badge bg-secondary ms-1">Single</span>'
+      : '';
+    return '<tr class="run-row"><td>' + (row[_runColumns[0]] ?? '') + badge + '</td>' +
+      _runColumns.slice(1).map(c => `<td>${row[c] ?? ''}</td>`).join('') + '</tr>';
+  }).join('');
 }
 
-document.getElementById('run-search').addEventListener('input', e => {
-  const q = e.target.value.toLowerCase();
-  renderRunTable(_allRuns.filter(row => _runColumns.some(c => String(row[c] || '').toLowerCase().includes(q))));
+document.getElementById('run-search').addEventListener('input', applyRunFilters);
+
+document.querySelectorAll('#scan-type-filter button').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('#scan-type-filter button').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    _scanTypeFilter = btn.dataset.filter;
+    applyRunFilters();
+  });
 });
 
 // ─── Logbook (read-only) ────────────────────────────────────────────────────
