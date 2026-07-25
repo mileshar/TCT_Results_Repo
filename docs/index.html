@@ -33,11 +33,6 @@
   <div class="d-flex align-items-center gap-3 mb-2 flex-wrap">
     <h5 class="mb-0">All Runs</h5>
     <input id="run-search" class="form-control form-control-sm" style="max-width:240px" placeholder="Search…">
-    <div class="btn-group btn-group-sm" id="scan-type-filter">
-      <button class="btn btn-outline-secondary active" data-filter="all">All</button>
-      <button class="btn btn-outline-secondary" data-filter="distance_scan">1D Scans</button>
-      <button class="btn btn-outline-secondary" data-filter="single">Single Waveforms</button>
-    </div>
   </div>
   <div style="overflow-x:auto">
     <table class="table table-sm table-bordered table-hover" id="run-table">
@@ -70,9 +65,14 @@
     <li class="nav-item"><a class="nav-link"         href="#" data-repotype="etct"   onclick="setRepoType('etct');return false">E-TCT</a></li>
     <li class="nav-item"><a class="nav-link"         href="#" data-repotype="tct"    onclick="setRepoType('tct');return false">TCT</a></li>
   </ul>
-  <div class="d-flex align-items-center gap-3 mb-3">
+  <div class="d-flex align-items-center gap-3 mb-3 flex-wrap">
     <input id="repo-search" class="form-control form-control-sm" style="max-width:280px"
            placeholder="Search by run number, sample, Vbias, type, or date">
+    <div class="btn-group btn-group-sm" id="scan-type-filter">
+      <button class="btn btn-outline-secondary active" data-filter="all">All</button>
+      <button class="btn btn-outline-secondary" data-filter="distance_scan">1D Scans</button>
+      <button class="btn btn-outline-secondary" data-filter="single">Single Waveforms</button>
+    </div>
     <span id="repo-search-count" class="text-muted small"></span>
   </div>
   <div id="repo-runs-list"></div>
@@ -97,47 +97,26 @@ async function fetchJson(path) {
 }
 
 // ─── Run List ───────────────────────────────────────────────────────────────
-let _allRuns = [], _runColumns = [], _scanTypeFilter = 'all';
+let _allRuns = [], _runColumns = [];
 
 async function loadRuns() {
   const r = await fetchJson('data/runs.json');
   _runColumns = r.columns || [];
   _allRuns    = r.rows || [];
-  applyRunFilters();
-}
-
-function applyRunFilters() {
-  const q = document.getElementById('run-search').value.toLowerCase();
-  renderRunTable(_allRuns.filter(row => {
-    const matchesType = _scanTypeFilter === 'all' || row._scan_type === _scanTypeFilter;
-    const matchesSearch = !q || _runColumns.some(c => String(row[c] || '').toLowerCase().includes(q));
-    return matchesType && matchesSearch;
-  }));
+  renderRunTable(_allRuns);
 }
 
 function renderRunTable(rows) {
   document.getElementById('run-thead').innerHTML =
     '<tr>' + _runColumns.map(c => `<th>${c}</th>`).join('') + '</tr>';
-  document.getElementById('run-tbody').innerHTML = rows.map(row => {
-    const badge = row._scan_type === 'distance_scan'
-      ? '<span class="badge bg-primary ms-1">1D</span>'
-      : row._scan_type === 'single'
-      ? '<span class="badge bg-secondary ms-1">Single</span>'
-      : '';
-    return '<tr class="run-row"><td>' + (row[_runColumns[0]] ?? '') + badge + '</td>' +
-      _runColumns.slice(1).map(c => `<td>${row[c] ?? ''}</td>`).join('') + '</tr>';
-  }).join('');
+  document.getElementById('run-tbody').innerHTML = rows.map(row =>
+    '<tr class="run-row">' + _runColumns.map(c => `<td>${row[c] ?? ''}</td>`).join('') + '</tr>'
+  ).join('');
 }
 
-document.getElementById('run-search').addEventListener('input', applyRunFilters);
-
-document.querySelectorAll('#scan-type-filter button').forEach(btn => {
-  btn.addEventListener('click', () => {
-    document.querySelectorAll('#scan-type-filter button').forEach(b => b.classList.remove('active'));
-    btn.classList.add('active');
-    _scanTypeFilter = btn.dataset.filter;
-    applyRunFilters();
-  });
+document.getElementById('run-search').addEventListener('input', e => {
+  const q = e.target.value.toLowerCase();
+  renderRunTable(_allRuns.filter(row => _runColumns.some(c => String(row[c] || '').toLowerCase().includes(q))));
 });
 
 // ─── Logbook (read-only) ────────────────────────────────────────────────────
@@ -168,6 +147,16 @@ let _repoType = 'all';
 let _repoRuns = [];
 let _repoRunsFiltered = [];
 let _repoSearchQuery = '';
+let _repoScanType = 'all';
+
+document.querySelectorAll('#scan-type-filter button').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('#scan-type-filter button').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    _repoScanType = btn.dataset.filter;
+    applyRepoSearch();
+  });
+});
 
 function setRepoType(rt) {
   _repoType = rt;
@@ -199,9 +188,12 @@ function _repoRunMatches(run, q) {
 }
 
 function applyRepoSearch() {
-  _repoRunsFiltered = _repoRuns.filter(run => _repoRunMatches(run, _repoSearchQuery));
+  _repoRunsFiltered = _repoRuns.filter(run =>
+    _repoRunMatches(run, _repoSearchQuery) &&
+    (_repoScanType === 'all' || run._scan_type === _repoScanType)
+  );
   const countEl = document.getElementById('repo-search-count');
-  countEl.textContent = _repoSearchQuery
+  countEl.textContent = (_repoSearchQuery || _repoScanType !== 'all')
     ? `${_repoRunsFiltered.length} of ${_repoRuns.length} runs`
     : '';
   renderRepoRuns();
