@@ -53,7 +53,29 @@
       "Date": "2026-07-25 00:00:00",
       "T0": 20.0,
       "Tf": 22.1,
-      "Notes": "first test with multichannel setup"
+      "Notes": "first test with multichannel setup. Amp set to 6V"
+    },
+    {
+      "Run Number": "1cm_42_multichannel_2",
+      "Measurment Type": "Surface",
+      "DUT": "1cm_42",
+      "DAC": 63.3,
+      "Vbias": -150,
+      "Date": "2026-07-26 00:00:00",
+      "T0": "",
+      "Tf": "",
+      "Notes": "Testing only AC strip, Amp set to 6.9V to compensate for V drop"
+    },
+    {
+      "Run Number": "1cm_42_multichannel_DC_3",
+      "Measurment Type": "Surface",
+      "DUT": "1cm_42",
+      "DAC": 63.3,
+      "Vbias": -150,
+      "Date": "2026-07-26 00:00:00",
+      "T0": "",
+      "Tf": "",
+      "Notes": "Same test as above but reading out DC frame"
     }
   ]
 }

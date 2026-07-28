@@ -35,6 +35,26 @@
       ]
     },
     {
+      "folder": "Run_1cm_42_multichannel_2_1cm_42_multichannel_DC_3",
+      "run_ids": [
+        "1cm",
+        "42",
+        "multichannel",
+        "2",
+        "1cm",
+        "42",
+        "multichannel",
+        "DC",
+        "3"
+      ],
+      "pdfs": [
+        {
+          "name": "Run_1cm_42_multichannel_2_1cm_42_multichannel_DC_3_Superimposed_Summary.pdf",
+          "url": "files/superimposed/Run_1cm_42_multichannel_2_1cm_42_multichannel_DC_3/Run_1cm_42_multichannel_2_1cm_42_multichannel_DC_3_Superimposed_Summary.pdf"
+        }
+      ]
+    },
+    {
       "folder": "Run_1cm_43_5mm_23_163",
       "run_ids": [
         "1cm",
