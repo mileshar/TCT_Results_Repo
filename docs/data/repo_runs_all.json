@@ -2419,6 +2419,26 @@
       "type_label": "",
       "has_folder": true,
       "_scan_type": "distance_scan"
+    },
+    {
+      "run_id": "1cm_42_multichannel_2_0_120ns_intbounds",
+      "sample": "1cm_42_multichannel",
+      "vbias": -150.0,
+      "date": "7/27/2026",
+      "log": {
+        "Run": "1cm_42_multichannel_2_0_120ns_intbounds",
+        "Surface": "x",
+        "Sample": "1cm_42_multichannel",
+        "Vbias (V)": -150.0,
+        "DAC (%)": 63.3,
+        "Bandwidth": "500MHz",
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\072726\\1cm_42_multichannel_2ndrun\\150V_63.3DAC\\AC_strip",
+        "Date": "7/27/2026"
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true,
+      "_scan_type": "distance_scan"
     }
   ]
 }
