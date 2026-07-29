@@ -2401,6 +2401,25 @@
       "_scan_type": "distance_scan"
     },
     {
+      "run_id": "1cm_42_multichannel_4",
+      "sample": "1cm_42_multichannel",
+      "vbias": -150.0,
+      "date": "",
+      "log": {
+        "Run": "1cm_42_multichannel_4",
+        "Surface": "x",
+        "Sample": "1cm_42_multichannel",
+        "Vbias (V)": -150.0,
+        "DAC (%)": 65.0,
+        "Bandwidth": "500MHz",
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\072926\\1cm_42_multichannel4\\150V_65DAC_3MIP"
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true,
+      "_scan_type": "distance_scan"
+    },
+    {
       "run_id": "1cm_42_multichannel_DC_3",
       "sample": "1cm_42_multichannel",
       "vbias": -150.0,

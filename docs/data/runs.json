@@ -1858,6 +1858,21 @@
       "Date": "7/27/2026",
       "Gain Constant": "",
       "_scan_type": "distance_scan"
+    },
+    {
+      "Run": "1cm_42_multichannel_4",
+      "Surface": "x",
+      "Edge": "",
+      "Sample": "1cm_42_multichannel",
+      "Vbias (V)": -150.0,
+      "DAC (%)": 65.0,
+      "Bandwidth": "500MHz",
+      "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\072926\\1cm_42_multichannel4\\150V_65DAC_3MIP",
+      "Irradiation (Fluence)": "",
+      "Notes": "",
+      "Date": "",
+      "Gain Constant": "",
+      "_scan_type": "distance_scan"
     }
   ]
 }
