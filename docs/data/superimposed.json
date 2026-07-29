@@ -35,6 +35,28 @@
       ]
     },
     {
+      "folder": "Run_1cm_42_multichannel_2_1cm_42_multichannel_2_0_120ns_intbounds",
+      "run_ids": [
+        "1cm",
+        "42",
+        "multichannel",
+        "2",
+        "1cm",
+        "42",
+        "multichannel",
+        "2",
+        "0",
+        "120ns",
+        "intbounds"
+      ],
+      "pdfs": [
+        {
+          "name": "Run_1cm_42_multichannel_2_1cm_42_multichannel_2_0_120ns_intbounds_Superimposed_Summary.pdf",
+          "url": "files/superimposed/Run_1cm_42_multichannel_2_1cm_42_multichannel_2_0_120ns_intbounds/Run_1cm_42_multichannel_2_1cm_42_multichannel_2_0_120ns_intbounds_Superimposed_Summary.pdf"
+        }
+      ]
+    },
+    {
       "folder": "Run_1cm_42_multichannel_2_1cm_42_multichannel_DC_3",
       "run_ids": [
         "1cm",
