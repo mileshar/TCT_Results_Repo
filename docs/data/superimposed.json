@@ -257,6 +257,25 @@
           "url": "files/superimposed/Run_TD_E_TCT_polished_TD_E_TCT_polished_2_TD_E_TCT_polished_3/Run_TD_E_TCT_polished_TD_E_TCT_polished_2_TD_E_TCT_polished_3_Superimposed_Summary.pdf"
         }
       ]
+    },
+    {
+      "folder": "Run_TD_E_TCT_Unpolished_TD_E_TCT_polished",
+      "run_ids": [
+        "TD",
+        "E",
+        "TCT",
+        "Unpolished",
+        "TD",
+        "E",
+        "TCT",
+        "polished"
+      ],
+      "pdfs": [
+        {
+          "name": "Run_TD_E_TCT_Unpolished_TD_E_TCT_polished_Superimposed_Summary.pdf",
+          "url": "files/superimposed/Run_TD_E_TCT_Unpolished_TD_E_TCT_polished/Run_TD_E_TCT_Unpolished_TD_E_TCT_polished_Superimposed_Summary.pdf"
+        }
+      ]
     }
   ]
 }
