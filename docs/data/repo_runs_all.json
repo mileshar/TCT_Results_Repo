@@ -2285,60 +2285,6 @@
       "_scan_type": "distance_scan"
     },
     {
-      "run_id": "TD_E_TCT_4",
-      "sample": "TD",
-      "vbias": 350.0,
-      "date": "",
-      "log": {
-        "Run": "TD_E_TCT_4",
-        "Edge": "x",
-        "Sample": "TD",
-        "Vbias (V)": 350.0,
-        "DAC (%)": 63.0,
-        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\EdgeTCT\\071626\\350V_63DAC"
-      },
-      "type": "",
-      "type_label": "",
-      "has_folder": true,
-      "_scan_type": "distance_scan"
-    },
-    {
-      "run_id": "TD_E_TCT_5",
-      "sample": "TD",
-      "vbias": 150.0,
-      "date": "",
-      "log": {
-        "Run": "TD_E_TCT_5",
-        "Edge": "x",
-        "Sample": "TD",
-        "Vbias (V)": 150.0,
-        "DAC (%)": 63.0,
-        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\EdgeTCT\\071626\\150V_63DAC"
-      },
-      "type": "",
-      "type_label": "",
-      "has_folder": true,
-      "_scan_type": "distance_scan"
-    },
-    {
-      "run_id": "TD_E_TCT_6",
-      "sample": "TD",
-      "vbias": 50.0,
-      "date": "",
-      "log": {
-        "Run": "TD_E_TCT_6",
-        "Edge": "x",
-        "Sample": "TD",
-        "Vbias (V)": 50.0,
-        "DAC (%)": 63.0,
-        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\EdgeTCT\\071626\\50V_63DAC"
-      },
-      "type": "",
-      "type_label": "",
-      "has_folder": true,
-      "_scan_type": "distance_scan"
-    },
-    {
       "run_id": "5mm_23_35MIP",
       "sample": "5mm_23",
       "vbias": 150.0,
@@ -2355,6 +2301,85 @@
         "Notes": "MIP Cal w/ 35 MIP 63.3 DAC 5mm_23",
         "Date": "10/17/2025",
         "Gain Constant": 5.5
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true,
+      "_scan_type": "distance_scan"
+    },
+    {
+      "run_id": "TD_E_TCT_polished",
+      "sample": "4003",
+      "vbias": 350.0,
+      "date": "7/31/2026",
+      "log": {
+        "Run": "TD_E_TCT_polished",
+        "Edge": "x",
+        "Sample": "4003",
+        "Vbias (V)": 350.0,
+        "DAC (%)": 63.0,
+        "Bandwidth": "500MHz",
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\EdgeTCT\\073126\\350V",
+        "Notes": "Testing polished edge. Leakage current 0.7uA",
+        "Date": "7/31/2026"
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true,
+      "_scan_type": "distance_scan"
+    },
+    {
+      "run_id": "TD_E_TCT_Unpolished",
+      "sample": "TD",
+      "vbias": 350.0,
+      "date": "",
+      "log": {
+        "Run": "TD_E_TCT_Unpolished",
+        "Edge": "x",
+        "Sample": "TD",
+        "Vbias (V)": 350.0,
+        "DAC (%)": 63.0,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\EdgeTCT\\071626\\350V_63DAC"
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": false,
+      "_scan_type": "distance_scan"
+    },
+    {
+      "run_id": "TD_E_TCT_polished_2",
+      "sample": "4003",
+      "vbias": 150.0,
+      "date": "7/31/2026",
+      "log": {
+        "Run": "TD_E_TCT_polished_2",
+        "Edge": "x",
+        "Sample": "4003",
+        "Vbias (V)": 150.0,
+        "DAC (%)": 63.0,
+        "Bandwidth": "500MHz",
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\EdgeTCT\\073126\\150V",
+        "Date": "7/31/2026"
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true,
+      "_scan_type": "distance_scan"
+    },
+    {
+      "run_id": "TD_E_TCT_polished_3",
+      "sample": "4003",
+      "vbias": 50.0,
+      "date": "7/31/2026",
+      "log": {
+        "Run": "TD_E_TCT_polished_3",
+        "Edge": "x",
+        "Sample": "4003",
+        "Vbias (V)": 50.0,
+        "DAC (%)": 63.0,
+        "Bandwidth": "500MHz",
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\EdgeTCT\\073126\\50V",
+        "Date": "7/31/2026"
       },
       "type": "",
       "type_label": "",
@@ -2413,12 +2438,48 @@
         "DAC (%)": 65.0,
         "Bandwidth": "500MHz",
         "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\072926\\1cm_42_multichannel4\\150V_65DAC_3MIP",
-        "Date": "7/29/2026",
-        "Unnamed: 12": "test w 3MIPs"
+        "Notes": "test w 3MIPs",
+        "Date": "7/29/2026"
       },
       "type": "",
       "type_label": "",
       "has_folder": true,
+      "_scan_type": "distance_scan"
+    },
+    {
+      "run_id": "TD_E_TCT_Unpolished_2",
+      "sample": "TD",
+      "vbias": 150.0,
+      "date": "",
+      "log": {
+        "Run": "TD_E_TCT_Unpolished_2",
+        "Edge": "x",
+        "Sample": "TD",
+        "Vbias (V)": 150.0,
+        "DAC (%)": 63.0,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\EdgeTCT\\071626\\150V_63DAC"
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": false,
+      "_scan_type": "distance_scan"
+    },
+    {
+      "run_id": "TD_E_TCT_Unpolished_3",
+      "sample": "TD",
+      "vbias": 50.0,
+      "date": "",
+      "log": {
+        "Run": "TD_E_TCT_Unpolished_3",
+        "Edge": "x",
+        "Sample": "TD",
+        "Vbias (V)": 50.0,
+        "DAC (%)": 63.0,
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\EdgeTCT\\071626\\50V_63DAC"
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": false,
       "_scan_type": "distance_scan"
     },
     {

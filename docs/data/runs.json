@@ -11,8 +11,7 @@
     "Irradiation (Fluence)",
     "Notes",
     "Date",
-    "Gain Constant",
-    "Unnamed: 12"
+    "Gain Constant"
   ],
   "rows": [
     {
@@ -28,7 +27,6 @@
       "Notes": "Test Run",
       "Date": "Test",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": ""
     },
     {
@@ -44,7 +42,6 @@
       "Notes": "Test Run",
       "Date": "Test",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": ""
     },
     {
@@ -60,7 +57,6 @@
       "Notes": "Test Run",
       "Date": "Test",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": ""
     },
     {
@@ -76,7 +72,6 @@
       "Notes": "Test Run",
       "Date": "Test",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": ""
     },
     {
@@ -92,7 +87,6 @@
       "Notes": "Test Run",
       "Date": "Test",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": ""
     },
     {
@@ -108,7 +102,6 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": ""
     },
     {
@@ -124,7 +117,6 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": ""
     },
     {
@@ -140,7 +132,6 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": ""
     },
     {
@@ -156,7 +147,6 @@
       "Notes": "MIP Cal with new 5mm LGAD, 5 MIPs used",
       "Date": "10/3/2025",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "distance_scan"
     },
     {
@@ -172,7 +162,6 @@
       "Notes": "MIP Cal with old 5mm LGAD, 5 MIPs used",
       "Date": "10/3/2025",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "distance_scan"
     },
     {
@@ -188,7 +177,6 @@
       "Notes": "MIP Cal with new 1cm LGAD, 5MIPs used",
       "Date": "10/3/2025",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "distance_scan"
     },
     {
@@ -204,7 +192,6 @@
       "Notes": "MIP Cal with new 2,3 5mmLGAD",
       "Date": "10/3/2025",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "distance_scan"
     },
     {
@@ -220,7 +207,6 @@
       "Notes": "MIP Cal w/ 5MIP from TD",
       "Date": "10/13/2025",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "distance_scan"
     },
     {
@@ -236,7 +222,6 @@
       "Notes": "MIP Cal w/ 5MIP from TD",
       "Date": "10/13/2025",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "distance_scan"
     },
     {
@@ -252,7 +237,6 @@
       "Notes": "MIP Cal w/ 5MIP from TD",
       "Date": "10/15/2025",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "distance_scan"
     },
     {
@@ -268,7 +252,6 @@
       "Notes": "MIP Cal W/ 5MIP from TD",
       "Date": "10/15/2025",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "distance_scan"
     },
     {
@@ -284,7 +267,6 @@
       "Notes": "MIP Cal w/35MIP, 63.3DAC, temperature change from 23 to 27 w/ peltier element active",
       "Date": "10/16/2025",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "distance_scan"
     },
     {
@@ -300,7 +282,6 @@
       "Notes": "MIP Cal w/ 35 MIP 63.3 DAC only DC coupled wirebond",
       "Date": "10/17/2025",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "distance_scan"
     },
     {
@@ -316,7 +297,6 @@
       "Notes": "MIP Cal w/ 35 MIP 63.3 DAC 5mm_23",
       "Date": "10/17/2025",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "distance_scan"
     },
     {
@@ -332,7 +312,6 @@
       "Notes": "MIP Cal w/ 35MIPs old5mm lgad",
       "Date": "10/17/2025",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "distance_scan"
     },
     {
@@ -348,7 +327,6 @@
       "Notes": "MIP Cal w/ old 5mm, new wirebonds, 35MIPs",
       "Date": "10/23/2025",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "distance_scan"
     },
     {
@@ -364,7 +342,6 @@
       "Notes": "Checking risetime",
       "Date": "10/17/2025",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -380,7 +357,6 @@
       "Notes": "Checking risetime",
       "Date": "10/23/2025",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -396,7 +372,6 @@
       "Notes": "0V_sanitycheck_TD",
       "Date": "10/23/2025",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "distance_scan"
     },
     {
@@ -412,7 +387,6 @@
       "Notes": "0V_35MIP_1cm",
       "Date": "10/23/2025",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "distance_scan"
     },
     {
@@ -428,7 +402,6 @@
       "Notes": "0V_35MIP_5mm_23",
       "Date": "10/23/2025",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "distance_scan"
     },
     {
@@ -444,7 +417,6 @@
       "Notes": "0V_35MIP_old5",
       "Date": "10/23/2025",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "distance_scan"
     },
     {
@@ -460,7 +432,6 @@
       "Notes": "150V_4MIPs_Acstrip wirebonded",
       "Date": "10/23/2025",
       "Gain Constant": 0.628,
-      "Unnamed: 12": "",
       "_scan_type": "distance_scan"
     },
     {
@@ -476,7 +447,6 @@
       "Notes": "new wirebonds on 1cm, 35MIP 150V",
       "Date": "11/13/2025",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "distance_scan"
     },
     {
@@ -492,7 +462,6 @@
       "Notes": "Correctintg Gain to 1cmm_43",
       "Date": "11/14/2025",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "distance_scan"
     },
     {
@@ -508,7 +477,6 @@
       "Notes": "73.6um into the right ",
       "Date": "11/21/2025",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "distance_scan"
     },
     {
@@ -524,7 +492,6 @@
       "Notes": "",
       "Date": "11/23/2025",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "distance_scan"
     },
     {
@@ -540,7 +507,6 @@
       "Notes": "",
       "Date": "11/23/2025",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "distance_scan"
     },
     {
@@ -556,7 +522,6 @@
       "Notes": "",
       "Date": "11/23/2025",
       "Gain Constant": "",
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -572,7 +537,6 @@
       "Notes": "",
       "Date": "11/23/2025",
       "Gain Constant": "",
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -588,7 +552,6 @@
       "Notes": "",
       "Date": "11/23/2025",
       "Gain Constant": "",
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -604,7 +567,6 @@
       "Notes": "Testing New Wirebond",
       "Date": "12/1/2025",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "distance_scan"
     },
     {
@@ -620,7 +582,6 @@
       "Notes": "gaincalibtest",
       "Date": "12/13/2025",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -636,7 +597,6 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -652,7 +612,6 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -668,7 +627,6 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -684,7 +642,6 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -700,7 +657,6 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -716,7 +672,6 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -732,7 +687,6 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -748,7 +702,6 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -764,7 +717,6 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -780,7 +732,6 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -796,7 +747,6 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -812,7 +762,6 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -828,7 +777,6 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -844,7 +792,6 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -860,7 +807,6 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -876,7 +822,6 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -892,7 +837,6 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -908,7 +852,6 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -924,7 +867,6 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -940,7 +882,6 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -956,7 +897,6 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -972,7 +912,6 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -988,7 +927,6 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -1004,7 +942,6 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -1020,7 +957,6 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -1036,7 +972,6 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -1052,7 +987,6 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -1068,7 +1002,6 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -1084,7 +1017,6 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -1100,7 +1032,6 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -1116,7 +1047,6 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -1132,7 +1062,6 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -1148,7 +1077,6 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -1164,7 +1092,6 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -1180,7 +1107,6 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -1196,7 +1122,6 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -1212,7 +1137,6 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -1228,7 +1152,6 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -1244,7 +1167,6 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -1260,7 +1182,6 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -1276,7 +1197,6 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -1292,7 +1212,6 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -1308,7 +1227,6 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -1324,7 +1242,6 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -1340,7 +1257,6 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -1356,7 +1272,6 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -1372,7 +1287,6 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -1388,7 +1302,6 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -1404,7 +1317,6 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -1420,7 +1332,6 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -1436,7 +1347,6 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -1452,7 +1362,6 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -1468,7 +1377,6 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -1484,7 +1392,6 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -1500,7 +1407,6 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -1516,7 +1422,6 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -1532,7 +1437,6 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -1548,7 +1452,6 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -1564,7 +1467,6 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -1580,7 +1482,6 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -1596,7 +1497,6 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -1612,7 +1512,6 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -1628,7 +1527,6 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -1644,7 +1542,6 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -1660,7 +1557,6 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -1676,7 +1572,6 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -1692,7 +1587,6 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -1708,7 +1602,6 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -1724,7 +1617,6 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -1740,7 +1632,6 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -1756,7 +1647,6 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -1772,7 +1662,6 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -1788,7 +1677,6 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -1804,7 +1692,6 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -1820,7 +1707,6 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": 5.5,
-      "Unnamed: 12": "",
       "_scan_type": "single"
     },
     {
@@ -1836,7 +1722,6 @@
       "Notes": "Before Polishing",
       "Date": "4/23/2026",
       "Gain Constant": "",
-      "Unnamed: 12": "",
       "_scan_type": "distance_scan"
     },
     {
@@ -1852,7 +1737,6 @@
       "Notes": "Before Polishing",
       "Date": "4/23/2026",
       "Gain Constant": "",
-      "Unnamed: 12": "",
       "_scan_type": "distance_scan"
     },
     {
@@ -1868,11 +1752,10 @@
       "Notes": "Before Polishing",
       "Date": "4/23/2026",
       "Gain Constant": "",
-      "Unnamed: 12": "",
       "_scan_type": "distance_scan"
     },
     {
-      "Run": "TD_E_TCT_4",
+      "Run": "TD_E_TCT_Unpolished",
       "Surface": "",
       "Edge": "x",
       "Sample": "TD",
@@ -1884,11 +1767,10 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": "",
-      "Unnamed: 12": "",
       "_scan_type": "distance_scan"
     },
     {
-      "Run": "TD_E_TCT_5",
+      "Run": "TD_E_TCT_Unpolished_2",
       "Surface": "",
       "Edge": "x",
       "Sample": "TD",
@@ -1900,11 +1782,10 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": "",
-      "Unnamed: 12": "",
       "_scan_type": "distance_scan"
     },
     {
-      "Run": "TD_E_TCT_6",
+      "Run": "TD_E_TCT_Unpolished_3",
       "Surface": "",
       "Edge": "x",
       "Sample": "TD",
@@ -1916,7 +1797,6 @@
       "Notes": "",
       "Date": "",
       "Gain Constant": "",
-      "Unnamed: 12": "",
       "_scan_type": "distance_scan"
     },
     {
@@ -1932,7 +1812,6 @@
       "Notes": "Testing m",
       "Date": "",
       "Gain Constant": "",
-      "Unnamed: 12": "",
       "_scan_type": "distance_scan"
     },
     {
@@ -1948,7 +1827,6 @@
       "Notes": "AC Strip connection only,  changed amp power supply to 6.9 V to compensate for V drop",
       "Date": "7/27/2026",
       "Gain Constant": "",
-      "Unnamed: 12": "",
       "_scan_type": "distance_scan"
     },
     {
@@ -1964,7 +1842,6 @@
       "Notes": "Same positiobn scan as AC test above, now with DC as inpout to scope",
       "Date": "7/27/2026",
       "Gain Constant": "",
-      "Unnamed: 12": "",
       "_scan_type": "distance_scan"
     },
     {
@@ -1980,7 +1857,6 @@
       "Notes": "",
       "Date": "7/27/2026",
       "Gain Constant": "",
-      "Unnamed: 12": "",
       "_scan_type": "distance_scan"
     },
     {
@@ -1993,10 +1869,54 @@
       "Bandwidth": "500MHz",
       "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\072926\\1cm_42_multichannel4\\150V_65DAC_3MIP",
       "Irradiation (Fluence)": "",
-      "Notes": "",
+      "Notes": "test w 3MIPs",
       "Date": "7/29/2026",
       "Gain Constant": "",
-      "Unnamed: 12": "test w 3MIPs",
+      "_scan_type": "distance_scan"
+    },
+    {
+      "Run": "TD_E_TCT_polished",
+      "Surface": "",
+      "Edge": "x",
+      "Sample": "4003",
+      "Vbias (V)": 350.0,
+      "DAC (%)": 63.0,
+      "Bandwidth": "500MHz",
+      "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\EdgeTCT\\073126\\350V",
+      "Irradiation (Fluence)": "",
+      "Notes": "Testing polished edge. Leakage current 0.7uA",
+      "Date": "7/31/2026",
+      "Gain Constant": "",
+      "_scan_type": "distance_scan"
+    },
+    {
+      "Run": "TD_E_TCT_polished_2",
+      "Surface": "",
+      "Edge": "x",
+      "Sample": "4003",
+      "Vbias (V)": 150.0,
+      "DAC (%)": 63.0,
+      "Bandwidth": "500MHz",
+      "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\EdgeTCT\\073126\\150V",
+      "Irradiation (Fluence)": "",
+      "Notes": "",
+      "Date": "7/31/2026",
+      "Gain Constant": "",
+      "_scan_type": "distance_scan"
+    },
+    {
+      "Run": "TD_E_TCT_polished_3",
+      "Surface": "",
+      "Edge": "x",
+      "Sample": "4003",
+      "Vbias (V)": 50.0,
+      "DAC (%)": 63.0,
+      "Bandwidth": "500MHz",
+      "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\EdgeTCT\\073126\\50V",
+      "Irradiation (Fluence)": "",
+      "Notes": "",
+      "Date": "7/31/2026",
+      "Gain Constant": "",
       "_scan_type": "distance_scan"
     }
   ]

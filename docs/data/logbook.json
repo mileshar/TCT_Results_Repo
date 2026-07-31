@@ -76,6 +76,17 @@
       "T0": "",
       "Tf": "",
       "Notes": "Same test as above but reading out DC frame"
+    },
+    {
+      "Run Number": "1cm_42_multichannel_4",
+      "Measurment Type": "Surface",
+      "DUT": "1cm_42",
+      "DAC": 65.0,
+      "Vbias": -150,
+      "Date": "2026-07-29 00:00:00",
+      "T0": "",
+      "Tf": "",
+      "Notes": "Test with AC strip with \"3 MIP\""
     }
   ]
 }

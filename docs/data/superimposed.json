@@ -232,6 +232,31 @@
           "url": "files/superimposed/Run_TD_E_TCT_4_TD_E_TCT_5_TD_E_TCT_6/Run_TD_E_TCT_4_TD_E_TCT_5_TD_E_TCT_6_Superimposed_Summary.pdf"
         }
       ]
+    },
+    {
+      "folder": "Run_TD_E_TCT_polished_TD_E_TCT_polished_2_TD_E_TCT_polished_3",
+      "run_ids": [
+        "TD",
+        "E",
+        "TCT",
+        "polished",
+        "TD",
+        "E",
+        "TCT",
+        "polished",
+        "2",
+        "TD",
+        "E",
+        "TCT",
+        "polished",
+        "3"
+      ],
+      "pdfs": [
+        {
+          "name": "Run_TD_E_TCT_polished_TD_E_TCT_polished_2_TD_E_TCT_polished_3_Superimposed_Summary.pdf",
+          "url": "files/superimposed/Run_TD_E_TCT_polished_TD_E_TCT_polished_2_TD_E_TCT_polished_3/Run_TD_E_TCT_polished_TD_E_TCT_polished_2_TD_E_TCT_polished_3_Superimposed_Summary.pdf"
+        }
+      ]
     }
   ]
 }
