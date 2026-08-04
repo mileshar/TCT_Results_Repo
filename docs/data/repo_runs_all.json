@@ -2522,7 +2522,7 @@
       },
       "type": "",
       "type_label": "",
-      "has_folder": false,
+      "has_folder": true,
       "_scan_type": "distance_scan"
     },
     {
