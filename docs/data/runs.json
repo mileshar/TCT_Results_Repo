@@ -1933,6 +1933,36 @@
       "Date": "8/4/2026",
       "Gain Constant": "",
       "_scan_type": "distance_scan"
+    },
+    {
+      "Run": "TD_E_TCT_polished_5",
+      "Surface": "",
+      "Edge": "x",
+      "Sample": "4003",
+      "Vbias (V)": 150.0,
+      "DAC (%)": 63.0,
+      "Bandwidth": "500MHz",
+      "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\EdgeTCT\\080426\\150V_63DAC",
+      "Irradiation (Fluence)": "",
+      "Notes": "",
+      "Date": "8/4/2026",
+      "Gain Constant": "",
+      "_scan_type": "distance_scan"
+    },
+    {
+      "Run": "TD_E_TCT_polished_6",
+      "Surface": "",
+      "Edge": "x",
+      "Sample": "4003",
+      "Vbias (V)": 50.0,
+      "DAC (%)": 63.0,
+      "Bandwidth": "500MHz",
+      "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\EdgeTCT\\080426\\50V_63DAC",
+      "Irradiation (Fluence)": "",
+      "Notes": "",
+      "Date": "8/4/2026",
+      "Gain Constant": "",
+      "_scan_type": "distance_scan"
     }
   ]
 }
