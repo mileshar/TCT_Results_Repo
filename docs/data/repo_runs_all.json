@@ -2387,6 +2387,27 @@
       "_scan_type": "distance_scan"
     },
     {
+      "run_id": "TD_E_TCT_polished_4",
+      "sample": "4003",
+      "vbias": 350.0,
+      "date": "8/4/2026",
+      "log": {
+        "Run": "TD_E_TCT_polished_4",
+        "Edge": "x",
+        "Sample": "4003",
+        "Vbias (V)": 350.0,
+        "DAC (%)": 63.0,
+        "Bandwidth": "500MHz",
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\EdgeTCT\\080426\\350V_63DAC",
+        "Notes": "Testing polished edge w/ tape for reflection, and slightly different laser height",
+        "Date": "8/4/2026"
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true,
+      "_scan_type": "distance_scan"
+    },
+    {
       "run_id": "1cm_42_multichannel_1",
       "sample": "1cm_42_multichannel",
       "vbias": -150.0,

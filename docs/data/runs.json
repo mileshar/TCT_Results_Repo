@@ -1918,6 +1918,21 @@
       "Date": "7/31/2026",
       "Gain Constant": "",
       "_scan_type": "distance_scan"
+    },
+    {
+      "Run": "TD_E_TCT_polished_4",
+      "Surface": "",
+      "Edge": "x",
+      "Sample": "4003",
+      "Vbias (V)": 350.0,
+      "DAC (%)": 63.0,
+      "Bandwidth": "500MHz",
+      "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\EdgeTCT\\080426\\350V_63DAC",
+      "Irradiation (Fluence)": "",
+      "Notes": "Testing polished edge w/ tape for reflection, and slightly different laser height",
+      "Date": "8/4/2026",
+      "Gain Constant": "",
+      "_scan_type": "distance_scan"
     }
   ]
 }
