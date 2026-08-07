@@ -87,6 +87,226 @@
       "T0": "",
       "Tf": "",
       "Notes": "Test with AC strip with \"3 MIP\""
+    },
+    {
+      "Run Number": "Run007",
+      "Measurment Type": "Edge",
+      "DUT": 4003,
+      "DAC": 63.0,
+      "Vbias": 350,
+      "Date": "2026-08-04 00:00:00",
+      "T0": "",
+      "Tf": "",
+      "Notes": "Voltage scan on polished TD_4003 to find V_iso"
+    },
+    {
+      "Run Number": "Run008",
+      "Measurment Type": "Edge",
+      "DUT": 4003,
+      "DAC": 63.0,
+      "Vbias": 330,
+      "Date": "2026-08-04 00:00:00",
+      "T0": "",
+      "Tf": "",
+      "Notes": ""
+    },
+    {
+      "Run Number": "Run009",
+      "Measurment Type": "Edge",
+      "DUT": 4003,
+      "DAC": 63.0,
+      "Vbias": 310,
+      "Date": "2026-08-04 00:00:00",
+      "T0": "",
+      "Tf": "",
+      "Notes": ""
+    },
+    {
+      "Run Number": "Run010",
+      "Measurment Type": "Edge",
+      "DUT": 4003,
+      "DAC": 63.0,
+      "Vbias": 290,
+      "Date": "2026-08-04 00:00:00",
+      "T0": "",
+      "Tf": "",
+      "Notes": ""
+    },
+    {
+      "Run Number": "Run011",
+      "Measurment Type": "Edge",
+      "DUT": 4003,
+      "DAC": 63.0,
+      "Vbias": 270,
+      "Date": "2026-08-04 00:00:00",
+      "T0": "",
+      "Tf": "",
+      "Notes": ""
+    },
+    {
+      "Run Number": "Run012",
+      "Measurment Type": "Edge",
+      "DUT": 4003,
+      "DAC": 63.0,
+      "Vbias": 250,
+      "Date": "2026-08-04 00:00:00",
+      "T0": "",
+      "Tf": "",
+      "Notes": ""
+    },
+    {
+      "Run Number": "Run013",
+      "Measurment Type": "Edge",
+      "DUT": 4003,
+      "DAC": 63.0,
+      "Vbias": 230,
+      "Date": "2026-08-04 00:00:00",
+      "T0": "",
+      "Tf": "",
+      "Notes": ""
+    },
+    {
+      "Run Number": "Run014",
+      "Measurment Type": "Edge",
+      "DUT": 4003,
+      "DAC": 63.0,
+      "Vbias": 210,
+      "Date": "2026-08-04 00:00:00",
+      "T0": "",
+      "Tf": "",
+      "Notes": ""
+    },
+    {
+      "Run Number": "Run015",
+      "Measurment Type": "Edge",
+      "DUT": 4003,
+      "DAC": 63.0,
+      "Vbias": 190,
+      "Date": "2026-08-04 00:00:00",
+      "T0": "",
+      "Tf": "",
+      "Notes": ""
+    },
+    {
+      "Run Number": "Run016",
+      "Measurment Type": "Edge",
+      "DUT": 4003,
+      "DAC": 63.0,
+      "Vbias": 170,
+      "Date": "2026-08-04 00:00:00",
+      "T0": "",
+      "Tf": "",
+      "Notes": ""
+    },
+    {
+      "Run Number": "Run017",
+      "Measurment Type": "Edge",
+      "DUT": 4003,
+      "DAC": 63.0,
+      "Vbias": 150,
+      "Date": "2026-08-04 00:00:00",
+      "T0": "",
+      "Tf": "",
+      "Notes": ""
+    },
+    {
+      "Run Number": "Run018",
+      "Measurment Type": "Edge",
+      "DUT": 4003,
+      "DAC": 63.0,
+      "Vbias": 140,
+      "Date": "2026-08-04 00:00:00",
+      "T0": "",
+      "Tf": "",
+      "Notes": ""
+    },
+    {
+      "Run Number": "Run019",
+      "Measurment Type": "Edge",
+      "DUT": 4003,
+      "DAC": 63.0,
+      "Vbias": 130,
+      "Date": "2026-08-04 00:00:00",
+      "T0": "",
+      "Tf": "",
+      "Notes": ""
+    },
+    {
+      "Run Number": "Run020",
+      "Measurment Type": "Edge",
+      "DUT": 4003,
+      "DAC": 63.0,
+      "Vbias": 120,
+      "Date": "2026-08-04 00:00:00",
+      "T0": "",
+      "Tf": "",
+      "Notes": ""
+    },
+    {
+      "Run Number": "Run021",
+      "Measurment Type": "Edge",
+      "DUT": 4003,
+      "DAC": 63.0,
+      "Vbias": 110,
+      "Date": "2026-08-04 00:00:00",
+      "T0": "",
+      "Tf": "",
+      "Notes": ""
+    },
+    {
+      "Run Number": "Run022",
+      "Measurment Type": "Edge",
+      "DUT": 4003,
+      "DAC": 63.0,
+      "Vbias": 100,
+      "Date": "2026-08-04 00:00:00",
+      "T0": "",
+      "Tf": "",
+      "Notes": ""
+    },
+    {
+      "Run Number": "Run023",
+      "Measurment Type": "Edge",
+      "DUT": 4003,
+      "DAC": 63.0,
+      "Vbias": 80,
+      "Date": "2026-08-04 00:00:00",
+      "T0": "",
+      "Tf": "",
+      "Notes": ""
+    },
+    {
+      "Run Number": "Run024",
+      "Measurment Type": "Edge",
+      "DUT": 4003,
+      "DAC": 63.0,
+      "Vbias": 60,
+      "Date": "2026-08-04 00:00:00",
+      "T0": "",
+      "Tf": "",
+      "Notes": ""
+    },
+    {
+      "Run Number": "Run025",
+      "Measurment Type": "Edge",
+      "DUT": 4003,
+      "DAC": 63.0,
+      "Vbias": 40,
+      "Date": "2026-08-04 00:00:00",
+      "T0": "",
+      "Tf": "",
+      "Notes": ""
+    },
+    {
+      "Run Number": "1cm_42_Multichannel_4",
+      "Measurment Type": "Surface",
+      "DUT": "1cm_42",
+      "DAC": 63.3,
+      "Vbias": 150,
+      "Date": "2026-08-07 00:00:00",
+      "T0": 19.0,
+      "Tf": 24.6,
+      "Notes": "First test with all AC strips grounded"
     }
   ]
 }
