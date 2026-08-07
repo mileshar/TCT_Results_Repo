@@ -1812,6 +1812,367 @@
       "_scan_type": "distance_scan"
     },
     {
+      "run_id": "Run007",
+      "sample": "4003",
+      "vbias": 350.0,
+      "date": "",
+      "log": {
+        "Run": "Run007",
+        "Edge": "x",
+        "Sample": "4003",
+        "Vbias (V)": 350.0,
+        "DAC (%)": 63.0,
+        "Bandwidth": "500MHz",
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\EdgeTCT\\080526\\350V_63DAC"
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true,
+      "_scan_type": "distance_scan"
+    },
+    {
+      "run_id": "Run008",
+      "sample": "4003",
+      "vbias": 330.0,
+      "date": "",
+      "log": {
+        "Run": "Run008",
+        "Edge": "x",
+        "Sample": "4003",
+        "Vbias (V)": 330.0,
+        "DAC (%)": 63.0,
+        "Bandwidth": "500MHz",
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\EdgeTCT\\080526\\330V_63DAC"
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true,
+      "_scan_type": "distance_scan"
+    },
+    {
+      "run_id": "Run009",
+      "sample": "4003",
+      "vbias": 310.0,
+      "date": "",
+      "log": {
+        "Run": "Run009",
+        "Edge": "x",
+        "Sample": "4003",
+        "Vbias (V)": 310.0,
+        "DAC (%)": 63.0,
+        "Bandwidth": "500MHz",
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\EdgeTCT\\080526\\310V_63DAC"
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true,
+      "_scan_type": "distance_scan"
+    },
+    {
+      "run_id": "Run010",
+      "sample": "4003",
+      "vbias": 290.0,
+      "date": "",
+      "log": {
+        "Run": "Run010",
+        "Edge": "x",
+        "Sample": "4003",
+        "Vbias (V)": 290.0,
+        "DAC (%)": 63.0,
+        "Bandwidth": "500MHz",
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\EdgeTCT\\080526\\290V_63DAC"
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true,
+      "_scan_type": "distance_scan"
+    },
+    {
+      "run_id": "Run011",
+      "sample": "4003",
+      "vbias": 270.0,
+      "date": "",
+      "log": {
+        "Run": "Run011",
+        "Edge": "x",
+        "Sample": "4003",
+        "Vbias (V)": 270.0,
+        "DAC (%)": 63.0,
+        "Bandwidth": "500MHz",
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\EdgeTCT\\080526\\270V_63DAC"
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true,
+      "_scan_type": "distance_scan"
+    },
+    {
+      "run_id": "Run012",
+      "sample": "4003",
+      "vbias": 250.0,
+      "date": "",
+      "log": {
+        "Run": "Run012",
+        "Edge": "x",
+        "Sample": "4003",
+        "Vbias (V)": 250.0,
+        "DAC (%)": 63.0,
+        "Bandwidth": "500MHz",
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\EdgeTCT\\080526\\250V_63DAC"
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true,
+      "_scan_type": "distance_scan"
+    },
+    {
+      "run_id": "Run013",
+      "sample": "4003",
+      "vbias": 230.0,
+      "date": "",
+      "log": {
+        "Run": "Run013",
+        "Edge": "x",
+        "Sample": "4003",
+        "Vbias (V)": 230.0,
+        "DAC (%)": 63.0,
+        "Bandwidth": "500MHz",
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\EdgeTCT\\080526\\230V_63DAC"
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true,
+      "_scan_type": "distance_scan"
+    },
+    {
+      "run_id": "Run014",
+      "sample": "4003",
+      "vbias": 210.0,
+      "date": "",
+      "log": {
+        "Run": "Run014",
+        "Edge": "x",
+        "Sample": "4003",
+        "Vbias (V)": 210.0,
+        "DAC (%)": 63.0,
+        "Bandwidth": "500MHz",
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\EdgeTCT\\080526\\210V_63DAC"
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true,
+      "_scan_type": "distance_scan"
+    },
+    {
+      "run_id": "Run015",
+      "sample": "4003",
+      "vbias": 190.0,
+      "date": "",
+      "log": {
+        "Run": "Run015",
+        "Edge": "x",
+        "Sample": "4003",
+        "Vbias (V)": 190.0,
+        "DAC (%)": 63.0,
+        "Bandwidth": "500MHz",
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\EdgeTCT\\080526\\190V_63DAC"
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true,
+      "_scan_type": "distance_scan"
+    },
+    {
+      "run_id": "Run016",
+      "sample": "4003",
+      "vbias": 170.0,
+      "date": "",
+      "log": {
+        "Run": "Run016",
+        "Edge": "x",
+        "Sample": "4003",
+        "Vbias (V)": 170.0,
+        "DAC (%)": 63.0,
+        "Bandwidth": "500MHz",
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\EdgeTCT\\080526\\170V_63DAC"
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true,
+      "_scan_type": "distance_scan"
+    },
+    {
+      "run_id": "Run017",
+      "sample": "4003",
+      "vbias": 150.0,
+      "date": "",
+      "log": {
+        "Run": "Run017",
+        "Edge": "x",
+        "Sample": "4003",
+        "Vbias (V)": 150.0,
+        "DAC (%)": 63.0,
+        "Bandwidth": "500MHz",
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\EdgeTCT\\080526\\150V_63DAC"
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true,
+      "_scan_type": "distance_scan"
+    },
+    {
+      "run_id": "Run018",
+      "sample": "4003",
+      "vbias": 140.0,
+      "date": "",
+      "log": {
+        "Run": "Run018",
+        "Edge": "x",
+        "Sample": "4003",
+        "Vbias (V)": 140.0,
+        "DAC (%)": 63.0,
+        "Bandwidth": "500MHz",
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\EdgeTCT\\080526\\140V_63DAC"
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true,
+      "_scan_type": "distance_scan"
+    },
+    {
+      "run_id": "Run019",
+      "sample": "4003",
+      "vbias": 130.0,
+      "date": "",
+      "log": {
+        "Run": "Run019",
+        "Edge": "x",
+        "Sample": "4003",
+        "Vbias (V)": 130.0,
+        "DAC (%)": 63.0,
+        "Bandwidth": "500MHz",
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\EdgeTCT\\080526\\130V_63DAC"
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true,
+      "_scan_type": "distance_scan"
+    },
+    {
+      "run_id": "Run020",
+      "sample": "4003",
+      "vbias": 120.0,
+      "date": "",
+      "log": {
+        "Run": "Run020",
+        "Edge": "x",
+        "Sample": "4003",
+        "Vbias (V)": 120.0,
+        "DAC (%)": 63.0,
+        "Bandwidth": "500MHz",
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\EdgeTCT\\080526\\120V_63DAC"
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true,
+      "_scan_type": "distance_scan"
+    },
+    {
+      "run_id": "Run021",
+      "sample": "4003",
+      "vbias": 110.0,
+      "date": "",
+      "log": {
+        "Run": "Run021",
+        "Edge": "x",
+        "Sample": "4003",
+        "Vbias (V)": 110.0,
+        "DAC (%)": 63.0,
+        "Bandwidth": "500MHz",
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\EdgeTCT\\080526\\110V_63DAC"
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true,
+      "_scan_type": "distance_scan"
+    },
+    {
+      "run_id": "Run022",
+      "sample": "4003",
+      "vbias": 100.0,
+      "date": "",
+      "log": {
+        "Run": "Run022",
+        "Edge": "x",
+        "Sample": "4003",
+        "Vbias (V)": 100.0,
+        "DAC (%)": 63.0,
+        "Bandwidth": "500MHz",
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\EdgeTCT\\080526\\100V_63DAC"
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true,
+      "_scan_type": "distance_scan"
+    },
+    {
+      "run_id": "Run023",
+      "sample": "4003",
+      "vbias": 80.0,
+      "date": "",
+      "log": {
+        "Run": "Run023",
+        "Edge": "x",
+        "Sample": "4003",
+        "Vbias (V)": 80.0,
+        "DAC (%)": 63.0,
+        "Bandwidth": "500MHz",
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\EdgeTCT\\080526\\80V_63DAC"
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true,
+      "_scan_type": "distance_scan"
+    },
+    {
+      "run_id": "Run024",
+      "sample": "4003",
+      "vbias": 60.0,
+      "date": "",
+      "log": {
+        "Run": "Run024",
+        "Edge": "x",
+        "Sample": "4003",
+        "Vbias (V)": 60.0,
+        "DAC (%)": 63.0,
+        "Bandwidth": "500MHz",
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\EdgeTCT\\080526\\60V_63DAC"
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true,
+      "_scan_type": "distance_scan"
+    },
+    {
+      "run_id": "Run025",
+      "sample": "4003",
+      "vbias": 40.0,
+      "date": "",
+      "log": {
+        "Run": "Run025",
+        "Edge": "x",
+        "Sample": "4003",
+        "Vbias (V)": 40.0,
+        "DAC (%)": 63.0,
+        "Bandwidth": "500MHz",
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\EdgeTCT\\080526\\40V_63DAC"
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true,
+      "_scan_type": "distance_scan"
+    },
+    {
       "run_id": "new1cm",
       "sample": "new1cm",
       "vbias": 150.0,
@@ -2441,6 +2802,27 @@
         "Bandwidth": "500MHz",
         "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\EdgeTCT\\080426\\50V_63DAC",
         "Date": "8/4/2026"
+      },
+      "type": "",
+      "type_label": "",
+      "has_folder": true,
+      "_scan_type": "distance_scan"
+    },
+    {
+      "run_id": "1cm_42_Multichannel_4",
+      "sample": "1cm_42",
+      "vbias": 150.0,
+      "date": "8/7/2026",
+      "log": {
+        "Run": "1cm_42_Multichannel_4",
+        "Surface": "x",
+        "Sample": "1cm_42",
+        "Vbias (V)": 150.0,
+        "DAC (%)": 63.3,
+        "Bandwidth": "500MHz",
+        "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\080726\\150V_63.3DAC_Middlechannel",
+        "Notes": "First test w all channels wirebonded. This run is only showing the center channel",
+        "Date": "8/7/2026"
       },
       "type": "",
       "type_label": "",
