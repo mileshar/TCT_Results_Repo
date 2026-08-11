@@ -2254,7 +2254,7 @@
       "Surface": "x",
       "Edge": "",
       "Sample": "1cm_42",
-      "Vbias (V)": 150.0,
+      "Vbias (V)": -150.0,
       "DAC (%)": 63.3,
       "Bandwidth": "500MHz",
       "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\080726\\150V_63.3DAC_Middlechannel",
@@ -2263,6 +2263,21 @@
       "Date": "8/7/2026",
       "Gain Constant": "",
       "_scan_type": "distance_scan"
+    },
+    {
+      "Run": "150V_63.3DAC_Allchannel",
+      "Surface": "x",
+      "Edge": "",
+      "Sample": "1cm_42",
+      "Vbias (V)": -150.0,
+      "DAC (%)": 63.3,
+      "Bandwidth": "500MHz",
+      "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\080726\\150V_63.3DAC_Allchannel",
+      "Irradiation (Fluence)": "",
+      "Notes": "Outfitted board, taking data with 3 channels simultaneously",
+      "Date": "8/7/2026",
+      "Gain Constant": "",
+      "_scan_type": "single"
     }
   ]
 }

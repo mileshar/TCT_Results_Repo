@@ -180,7 +180,7 @@ async function loadRepo() {
   const el = document.getElementById('repo-runs-list');
   el.innerHTML = '<em class="text-muted">Loading…</em>';
   const r = await fetchJson(`data/repo_runs_${_repoType}.json`);
-  _repoRuns = (r.runs || []).reverse();
+  _repoRuns = r.runs || [];
   applyRepoSearch();
 }
 
