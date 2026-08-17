@@ -214,6 +214,25 @@
       ]
     },
     {
+      "folder": "Run_1cm_42_multichannel_DC_3_150V_63.3DAC_DCFrame",
+      "run_ids": [
+        "1cm",
+        "42",
+        "multichannel",
+        "DC",
+        "3",
+        "150V",
+        "63.3DAC",
+        "DCFrame"
+      ],
+      "pdfs": [
+        {
+          "name": "Run_1cm_42_multichannel_DC_3_150V_63.3DAC_DCFrame_Superimposed_Summary.pdf",
+          "url": "files/superimposed/Run_1cm_42_multichannel_DC_3_150V_63.3DAC_DCFrame/Run_1cm_42_multichannel_DC_3_150V_63.3DAC_DCFrame_Superimposed_Summary.pdf"
+        }
+      ]
+    },
+    {
       "folder": "Run_1cm_43_5mm_23_163",
       "run_ids": [
         "1cm",
