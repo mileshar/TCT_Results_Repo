@@ -2278,6 +2278,21 @@
       "Date": "8/7/2026",
       "Gain Constant": "",
       "_scan_type": "single"
+    },
+    {
+      "Run": "150V_63.3DAC_DCFrame",
+      "Surface": "x",
+      "Edge": "",
+      "Sample": "1cm_42",
+      "Vbias (V)": -150.0,
+      "DAC (%)": 63.3,
+      "Bandwidth": "500MHz",
+      "Path": "C:\\Users\\APD-l\\Desktop\\TCT\\LGAD\\081026\\150V_63.3DAC_DCFrame",
+      "Irradiation (Fluence)": "",
+      "Notes": "Only DC Frame read out. Expecting lower Qcoll across device",
+      "Date": "8/8/2026",
+      "Gain Constant": "",
+      "_scan_type": "distance_scan"
     }
   ]
 }
